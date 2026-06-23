@@ -6,58 +6,65 @@
 ## 1. Stipulation (noun)- (शर्त):  a condition that is specified
 
 are demanded as part of an agreement.​ 
+
 • Synonym- requirement, terms, prerequisite​ 
+
 • Antonym disagreement, implication​ 
-•
 
 
-## 2. Deteriorate (verb)- (बफगड़ना) become progressively
 
-worse​ 
+## 2. Deteriorate (verb)- (बफगड़ना) become progressively worse​ 
+
 • Synonym- worsen, degenerate​ 
+
 • Antonym- improve​ 
 ​
-•
+
 
 
 ## 3. Surge (noun)- (उभड़ना) a sudden powerful forward
 
 or upward movement​ 
 • Synonym- Rush, growth​ 
+
 • Antonym- recede, diminish​ 
-•
+
 
 
 ## 4. Stubble (noun)- (चाया) the cut stocks of serial
 
 plants left sticking out of the ground after the grain 
 is harvested​ 
-• Synonym- stalks, straw​ 
-•
+
+ Synonym- stalks, straw​ 
+
 
 
 ## 5. Incumbent (adjective)- (ननबतय) necessary for
 
 someone as a duty or responsibility​ 
-• Synonym- mandatory, compulsory​ 
-• Antonym- optional​ 
-•
+
+Synonym- mandatory, compulsory​ 
+
+Antonym- optional​ 
+
 
 
 ## 6. Precautionary (adjective)- ( ननवायक) carried out as
 
 a precaution​ 
-• Synonym- preventive, protective​ 
-• Antonym- fostering, facilitating​ 
-•
+Synonym- preventive, protective​ 
+
+Antonym- fostering, facilitating​ 
+
 
 
 ## 7. Outcry (noun)- (चचल्राहट) an exclamation for
-
 shout​ 
-• Synonym- cry, scream​ 
-• Antonym- peace, quite​ 
-•
+Synonym- cry, scream​ 
+
+Antonym- peace, quite​ 
+
 
 
 ## 8. Putative (adjective)- (कल्ल्ऩर्) generally considered
