@@ -1,5 +1,8 @@
 # MasterProductivity2026-
 
+# Prompt
+Consider give above file it has vocab words dont change any meaaning or add extra things just make md version of this file for github and just add proper styling and make readable clean notes like do heading to vocab word make readable and give me updated md file notes must br crisp and clear add proper space and everything
+
 # Important Vocabulary 
 
 
