@@ -1,6 +1,171 @@
 # English Grammar Notes
 
-> Clean GitHub-friendly Markdown version. Original content preserved; formatting improved for readability.
+# PROMPT -
+
+# Prompt
+
+You are an expert editor specializing in educational notes and GitHub Markdown documentation.
+
+Your task is to convert the provided grammar notes into a clean, professional, highly readable Markdown (.md) document.
+
+## Critical Requirements
+
+### 1. Preserve Content
+
+* Do NOT change meanings.
+* Do NOT remove any information.
+* Do NOT add new grammar explanations.
+* Do NOT modify examples.
+* Only improve formatting, structure, spacing, readability, and consistency.
+
+### 2. Heading Formatting
+
+Convert rule titles into proper Markdown headings.
+
+Example:
+
+Input:
+RULE 01: Difference between “Each” and “Every”
+
+Output:
+
+# RULE 01: Difference Between "Each" and "Every"
+
+Never allow headings to break into multiple lines.
+
+Bad:
+RULE 01: Difference between “Each” and
+“Every”
+
+Good:
+
+# RULE 01: Difference Between "Each" and "Every"
+
+---
+
+### 3. Numbered Points Formatting
+
+Always place numbered points on separate lines.
+
+Bad:
+1.They are always followed by a singular verb.
+
+Good:
+
+1. They are always followed by a singular verb.
+
+Bad:
+1.They...
+2.They...
+
+Good:
+
+1. They...
+2. They...
+
+---
+
+### 4. Paragraph Formatting
+
+* Add proper blank lines between paragraphs.
+* Add blank lines after headings.
+* Add blank lines before and after Notes.
+* Avoid large walls of text.
+
+---
+
+### 5. Examples Formatting
+
+Convert examples into bullet lists.
+
+Example:
+
+#### Examples
+
+* **(I)** Each student is very talented.
+
+  * ✅ Singular verb is used.
+
+* **(II)** Each of my students is very talented.
+
+  * ✅ Singular verb is used.
+
+---
+
+### 6. Notes Formatting
+
+Every note must become a Markdown blockquote.
+
+Example:
+
+> **NOTE:** Each refers to a plural number of people or items, but it considers each person or item individually.
+
+---
+
+### 7. Subsections
+
+Use the following structure whenever applicable:
+
+# RULE XX: Rule Name
+
+## Concept
+
+Explanation
+
+> **NOTE:** Important note
+
+## Examples
+
+Examples here
+
+## Key Difference
+
+Important comparison
+
+---
+
+### 8. Markdown Standards
+
+Use:
+
+# Main Rule Heading
+
+## Section
+
+### Subsection
+
+* Bullet Lists
+* Proper Numbered Lists
+* Blockquotes for Notes
+* Bold for Important Terms
+
+---
+
+### 9. Readability Rules
+
+Ensure:
+
+* No heading text wraps to the next line.
+* No numbering sticks to text (e.g. "1.They").
+* One blank line between sections.
+* One blank line before examples.
+* One blank line after notes.
+* Consistent indentation.
+* GitHub README quality formatting.
+
+---
+
+### 10. Output Requirement
+
+Return ONLY the final Markdown content.
+
+Do not explain what was changed.
+
+Do not provide commentary.
+
+Produce a clean GitHub-ready .md document.
+
+
 
 
 # RULE 01: Difference between “Each” and
