@@ -4,9 +4,9 @@
 
 2. Since / For  are used to tell time and reason in a Sentence
 
-3.** Since - **Point of Start and **definite time** or start batata hai
+3. Since - Point of Start and definite time or start batata hai
 
-4. **For - **Duration Batata Hai  (length of Time)
+4. For - Duration Batata Hai  (length of Time)
 
 5. Exam me since and for dikha to 3 check karo 
 
