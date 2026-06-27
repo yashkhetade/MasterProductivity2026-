@@ -181,11 +181,23 @@ must / ought to / should - used for advice
 
 11) dare to , need to - main verb
 
+## Can - Permission,capacity,request,possibilty
+
+## Could - past of can formal rqst
+
+## May - Permission
+
+## Might - Possibilities
+
 ## Ought is always followed by to - duty,advice,strong possibility
 
 ## Used is always followed by to - past habit and passive voice 
 
 ## Dare to - challenge / face ( eg - he dared to asked me a question)
 
+## for negative sentence dont use to with dare
 
+## Need to -  for requirement
+
+## for negative sentence dont use to with need 
 
