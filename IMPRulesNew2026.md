@@ -149,7 +149,9 @@ My Friend Whose Leg was fractured  has recovered. (correct)
 ## Modal verbs are auxillaray verbs like
 can,could,may,might,must,outght to , need to ,dare to ,
 
-### Always use only **have** with Modal verbs
+### Always use only **have** / be with Modal verbs
+
+
 
 
 
