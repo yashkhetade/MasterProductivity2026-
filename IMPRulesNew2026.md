@@ -40,9 +40,14 @@ Examples -
 
 # has been / had been
 
+## 1) 
 ### Eg - He ate nothing since yesterday (wrong)
-
 ### Correct - He has eaten nothing since yesterday 
+
+## 2) 
+### Eg - He ate nothing for 2 hours when i met him  (wrong)
+### Correct -  He had eaten nothing for 2 hours when i met him 
+
 
 
 
