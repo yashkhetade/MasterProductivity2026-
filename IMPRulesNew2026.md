@@ -36,6 +36,7 @@ Examples -
 # Since / For Ke Tense ERRORS
 
 ## After Since always use simple past tense 
+## Use Perfect or Perfect Continuous Tense with Since / For
 
 
 
