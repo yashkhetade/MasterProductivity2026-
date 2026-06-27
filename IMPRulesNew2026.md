@@ -65,9 +65,21 @@ Examples -
 
 ### Each Of the ke bad Plural Noun 
 
+## Of the is always used with EACH 
+
 ###  Each/Every ke turant bad Singular Noun
 
 ###  Verb hamesha Noun  Ke Acoording Hogi
+
+### Either - matlab 2 me se koi ek
+
+### any - bohat me se koi ek
+
+### neither - matlab 2 me se koi nahi
+
+### none - Many me se koi nahi
+
+
 
 # Eg -
 
