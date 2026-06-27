@@ -128,7 +128,12 @@ So,
 
 My Friend Whose Leg was fractured  has recovered. (correct)
 
+# Who VS Whom
 
+### Who is used for Subject 
+### Whom for Object 
+
+##### Statement Se Question karo agar answer subject ke case me aaya to WHO else WHOM
 
 
 
