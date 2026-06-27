@@ -141,7 +141,9 @@ My Friend Whose Leg was fractured  has recovered. (correct)
 
 ## Which always give additional information about anything
 
-
+# uses of That -
+## animal/person/thing  use that 
+## *NOTE: All, any, the only , the same, none, much, none , much, no, the little, the few, something, anything, nothing and superlative degrees are all followed by “that” only. They cannot be followed by “who” or “which”
  
 
 
