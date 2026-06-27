@@ -69,6 +69,10 @@ Each/Every ke turant bad Singular Noun
 
 Verb hamesha Singular Hogi
 
+# Eg -
+Every was present (wrong )
+
+Each was present (right)
 
 
 
