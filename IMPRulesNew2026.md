@@ -97,6 +97,10 @@ Each was present (right)
 
 4)  Boy and Girl **Each**  **were** ready to do her work
 
+# Who / Whom / Which / That / Whose 
+
+## These are relative pronouns
+
 
 
 
