@@ -38,6 +38,12 @@ Examples -
 ## After Since always use simple past tense ..(Simple past means only Simple Past no other)
 ## Use Perfect or Perfect Continuous Tense with Since / For
 
+# has been / had been
+
+### Eg - He ate nothing since yesterday (wrong)
+
+### Correct - He has eaten nothing since yesterday 
+
 
 
  
