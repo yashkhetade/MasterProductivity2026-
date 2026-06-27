@@ -79,7 +79,7 @@ Examples -
 
 ### none - Many me se koi ek bhi nahi (negative)
 
-
+### None of the ke bad agar Selection (choice) ka sense ho to use singular else plural
 
 # Eg -
 
