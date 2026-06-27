@@ -39,6 +39,7 @@ Examples -
 
 ## Use Perfect or Perfect Continuous Tense with Since / For only when since /for shows Time
 
+## If since /for shows reason then use of any tense is okay
 
 # has been / had been
 
