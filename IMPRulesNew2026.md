@@ -83,7 +83,7 @@ Each was present (right)
 
 3)  **Each** Boy and **Each** Girl **was** ready to do her work
 
-4)  **Each** Boy and **Each** Girl **was** ready to do her work
+4)  Boy and Girl **Each**  **was** ready to do her work
 
 
 
