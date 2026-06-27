@@ -30,6 +30,9 @@ Examples -
 
 6) He has been working** for **  last two week
 
+# By Ke bad hamesha Point of Time Ayega
+#### eg - By Monday , By Nextweek
+
  
 
 
