@@ -146,11 +146,14 @@ My Friend Whose Leg was fractured  has recovered. (correct)
 ## *NOTE: All, any, the only , the same, none, much, none , much, no, the little, the few, something, anything, nothing and superlative degrees are all followed by “that” only. They cannot be followed by “who” or “which”
  
 # Rule 4) 
+
 ## Modal verbs are auxillaray verbs like
+
 can,could,may,might,must,outght to , need to ,dare to ,
 
 ### Always use only **have** / be with Modal verbs
 
+## Modal Verb + be + ing /v3
 
 
 
