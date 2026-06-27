@@ -103,7 +103,7 @@ Each was present (right)
 
 ### Which and that are used with Person and Things
 
-### When You have to choose (choice) use Which with Person and Things
+### When You have to choose (choice) use Which with Person and Things else not possible
 
 ### Who / Whom /   Whose are used with Persons
 
