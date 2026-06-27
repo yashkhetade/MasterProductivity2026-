@@ -59,7 +59,7 @@ Every - 2 se jyada logo ke lie
 
 Each - pronoun aur adjective dono ho sakta hai
 
-Every - always pronoun hoga
+Every - always adjective  hoga
 
 Absract Noun ke sath hamesha every use karo 
 
