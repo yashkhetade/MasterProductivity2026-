@@ -53,26 +53,29 @@ Examples -
 
 # Each and Every 
 
-Each 2 ya 2 se jyada logo ke lie
+###  Each 2 ya 2 se jyada logo ke lie
 
-Every - 2 se jyada logo ke lie
+###  Every - 2 se jyada logo ke lie
 
-Each - pronoun aur adjective dono ho sakta hai
+###  Each - pronoun aur adjective dono ho sakta hai
 
-Every - always adjective  hoga
+###  Every - always adjective  hoga
 
-Absract Noun ke sath hamesha every use karo 
+###  Absract Noun ke sath hamesha every use karo 
 
-Each Of the ke bad Plural Noun 
+### Each Of the ke bad Plural Noun 
 
-Each/Every ke turant bad Singular Noun
+###  Each/Every ke turant bad Singular Noun
 
-Verb hamesha Singular Hogi
+###  Verb hamesha Noun  Ke Acoording Hogi
 
 # Eg -
+
 Every was present (wrong )
 
 Each was present (right)
+
+
 
 
 
