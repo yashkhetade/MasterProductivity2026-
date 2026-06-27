@@ -120,6 +120,15 @@ Each was present (right)
 ## Who's - Short form of Whose  
 In case of who's is - is , has, was 
 
+Eg - My Friend Who's Leg was fractured  has recovered. (Incorrect)
+
+read it with who is , who has , who was it sounds incorrect
+
+So,
+
+My Friend Whose Leg was fractured  has recovered. (correct)
+
+
 
 
  
