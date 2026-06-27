@@ -135,7 +135,11 @@ My Friend Whose Leg was fractured  has recovered. (correct)
 
 ##### Statement Se Question karo agar answer subject ke case me aaya to WHO else WHOM
 
+# Which vs That
 
+## That always explains an  idea or fact  (eg ll that glitters is not gold)
+
+## Which always give additional information about anything
 
 
  
