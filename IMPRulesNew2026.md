@@ -73,11 +73,11 @@ Examples -
 
 ### Either - matlab 2 me se koi ek
 
-### any - bohat me se koi ek
+### any - more than 2 
 
-### neither - matlab 2 me se koi nahi
+### neither - matlab 2 me se koi nahi (negative)
 
-### none - Many me se koi nahi
+### none - Many me se koi ek bhi nahi (negative)
 
 
 
