@@ -165,4 +165,6 @@ can,could,may,might,must,outght to , need to ,dare to ,
 
 4) Should is used for advice and also for conditional sentences
 
+5) Must is used for order and inference
+
 
