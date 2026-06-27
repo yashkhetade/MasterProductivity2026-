@@ -33,6 +33,12 @@ Examples -
 # By Ke bad hamesha Point of Time Ayega
 #### eg - By Monday , By Nextweek
 
+# Since / For Ke Tense ERRORS
+
+## After Since always use simple past tense 
+
+
+
  
 
 
