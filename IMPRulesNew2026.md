@@ -167,4 +167,16 @@ can,could,may,might,must,outght to , need to ,dare to ,
 
 5) Must is used for order and inference
 
+6) Can could are never used with able and unable ( Can could already show ability)
+
+7) May , might a are never used with possible and likely  (May , might already show possibility,purpose and blessings)
+
+8) used to - when it behaves as adjective using ing after that
+
+9) used to - when it behaves as modal verb use v1
+
+10) had better + modal verb + v1
+
+11) dare to , need to - main verb 
+
 
