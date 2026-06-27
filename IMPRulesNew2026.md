@@ -1,4 +1,4 @@
-## 1) Since / 
+## 1) Since / For
 
 1. Since / For  are used as Preposition and Conjunction in a Sentence
 
