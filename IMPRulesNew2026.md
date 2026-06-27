@@ -158,7 +158,11 @@ can,could,may,might,must,outght to , need to ,dare to ,
 ## Modal + have + v3
 
 1) will / shall can be used with first and second and third person also
-2) Interrogative me shall ka use i and we can sath hoga
+  
+2) Interrogative  (?) me shall ka use i and we can sath hoga
+
 3) Normal sentence me shall kisi ke b sath karo use
-4) 
+
+4) Should is used for advice and also for conditional sentences
+
 
