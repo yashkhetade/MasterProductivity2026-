@@ -101,6 +101,13 @@ Each was present (right)
 
 ## These are relative pronouns
 
+### Which and that are used with Person and Things
+
+### When You have to choose (choice) use Which 
+
+### Who / Whom /   Whose are used with Persons
+
+
 
 
 
