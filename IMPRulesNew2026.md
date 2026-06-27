@@ -49,7 +49,26 @@ Examples -
 
 ## 2) 
 ### Eg - He ate nothing for 2 hours when i met him  (wrong)
-### Correct -  He had eaten nothing for 2 hours when i met him 
+### Correct -  He had eaten nothing for 2 hours when i met him
+
+# Each and Every 
+
+Each 2 ya 2 se jyada logo ke lie
+
+Every - 2 se jyada logo ke lie
+
+Each - pronoun aur adjective dono ho sakta hai
+
+Every - always pronoun hoga
+
+Absract Noun ke sath hamesha every use karo 
+
+Each Of the ke bad Plural Noun 
+
+Each/Every ke turant bad Singular Noun
+
+Verb hamesha Singular Hogi
+
 
 
 
