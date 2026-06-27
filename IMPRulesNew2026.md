@@ -181,6 +181,11 @@ must / ought to / should - used for advice
 
 11) dare to , need to - main verb
 
-12) 
+## Ought is always followed by to - duty,advice,strong possibility
+
+## Used is always followed by to - past habit and passive voice 
+
+## Dare to - challenge / face ( eg - he dared to asked me a question)
+
 
 
