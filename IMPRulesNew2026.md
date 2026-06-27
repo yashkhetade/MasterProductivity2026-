@@ -1,4 +1,4 @@
-## 1) Since / For
+## Rule 1) Since / For
 
 1. Since / For  are used as Preposition and Conjunction in a Sentence
 
@@ -51,7 +51,7 @@ Examples -
 ### Eg - He ate nothing for 2 hours when i met him  (wrong)
 ### Correct -  He had eaten nothing for 2 hours when i met him
 
-# Each and Every 
+# Rule 2) Each and Every 
 
 ###  Each 2 ya 2 se jyada logo ke lie
 
@@ -97,7 +97,7 @@ Each was present (right)
 
 4)  Boy and Girl **Each**  **were** ready to do her work
 
-# Who / Whom / Which / That / Whose 
+# Rule 3)  Who / Whom / Which / That / Whose 
 
 ## These are relative pronouns
 
@@ -145,7 +145,7 @@ My Friend Whose Leg was fractured  has recovered. (correct)
 ## animal/person/thing  use that 
 ## *NOTE: All, any, the only , the same, none, much, none , much, no, the little, the few, something, anything, nothing and superlative degrees are all followed by “that” only. They cannot be followed by “who” or “which”
  
-
+# Rule 4) 
 
 
 
