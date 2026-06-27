@@ -115,6 +115,10 @@ Each was present (right)
 
 #### Whose indicates always possesion
 
+## Whose - It is possesion 
+
+## Who's - Short form of Whose  
+In case of who's 
 
 
 
