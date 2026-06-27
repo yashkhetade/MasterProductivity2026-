@@ -107,8 +107,13 @@ Each was present (right)
 
 ### Who / Whom /   Whose are used with Persons
 
+#### Who is always used for subject
 
+#### Whom  is always used for object
 
+#### Who is always used for subject
+
+#### Whose indicates always possesion
 
 
 
