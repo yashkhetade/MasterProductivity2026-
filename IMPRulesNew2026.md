@@ -2,19 +2,19 @@
 
 1. Since / For  are used as Preposition and Conjunction in a Sentence
 
-3. Since / For  are used to tell time and reason in a Sentence
+2. Since / For  are used to tell time and reason in a Sentence
 
-5.** Since - **Point of Start and **definite time** or start batata hai
+3.** Since - **Point of Start and **definite time** or start batata hai
 
-7. **For - **Duration Batata Hai  (length of Time)
+4. **For - **Duration Batata Hai  (length of Time)
 
-9. Exam me since and for dikha to 3 check karo 
+5. Exam me since and for dikha to 3 check karo 
 
-11. a) Since and For se related Preposition and Conjunction  ka error ho sakta h
+6. a) Since and For se related Preposition and Conjunction  ka error ho sakta h
 
-13. b) Tense Ka error ho sakta h
+7. b) Tense Ka error ho sakta h
 
-16. Preposition ke bad hamesha object aata hai 
+8. Preposition ke bad hamesha object aata hai 
 
 Examples -
 
