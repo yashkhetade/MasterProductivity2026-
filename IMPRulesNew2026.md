@@ -115,10 +115,10 @@ Each was present (right)
 
 #### Whose indicates always possesion
 
-## Whose - It is possesion 
+## Whose - It is possesion ( Always a Noun is required after Whose)
 
 ## Who's - Short form of Whose  
-In case of who's 
+In case of who's is - is , has, was 
 
 
 
