@@ -75,6 +75,15 @@ Every was present (wrong )
 
 Each was present (right)
 
+## Example -
+
+1)  Boy and Girl **were** ready to do **their** work
+
+2)  **Each** Boy and Girl **was** ready to do her work
+
+3)  **Each** Boy and **Each** Girl **was** ready to do her work
+
+4)  **Each** Boy and **Each** Girl **was** ready to do her work
 
 
 
