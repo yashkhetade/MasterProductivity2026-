@@ -151,6 +151,8 @@ My Friend Whose Leg was fractured  has recovered. (correct)
 
 can,could,may,might,must,outght to , need to ,dare to ,
 
+must / ought to / should - used for advice
+
 ### Always use only **have** / be with Modal verbs
 
 ## Modal Verb + be + ing /v3
@@ -177,6 +179,8 @@ can,could,may,might,must,outght to , need to ,dare to ,
 
 10) had better + modal verb + v1
 
-11) dare to , need to - main verb 
+11) dare to , need to - main verb
+
+12) 
 
 
