@@ -212,4 +212,6 @@ Eg -  1) Raise **a** Finger
 
 Eg -  2) Raise **The** Thumb
 
+# By is used for telling the medium  ( IF zero article before noun use by )
+
 
