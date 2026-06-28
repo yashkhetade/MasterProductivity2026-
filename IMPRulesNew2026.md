@@ -453,4 +453,7 @@ Each of , One of , some of, both of, Most of
 
 ## HE is a  student average  in maths (right)
 
+## Superior , Elder etc - remove er and read this words you cant find them eg eld , sup
+
+## 
 
