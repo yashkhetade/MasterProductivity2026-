@@ -458,3 +458,7 @@ Each of , One of , some of, both of, Most of
 ## same category ka comparision ho to use ANY OTHER 
 ## eg - gold is costlier than any other metals
 
+# Comparision Check karo 
+Eg- The price of the truck is higher than car (incorrect)
+
+Eg- The price of the truck is higher than that of car (correct)
