@@ -490,3 +490,6 @@ Eg- The price of the truck is higher than **that** of car (correct)
 ## For Doubt / Uncertanity scenarios always use Conjunction of doubt WHETHER
 
 ## For No doubt scenarios always use  use THAT 
+
+
+## CONJUNCTION of reason - because , as , since , for 
