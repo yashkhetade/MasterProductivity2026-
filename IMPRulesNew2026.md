@@ -433,4 +433,5 @@ Each of , One of , some of, both of, Most of
 
 ## AWARE , ASLEEP, SURE, ASHAMED, FOND, CONCERNED, SORRY , ILL, ALIGHT, ALONE ,AWAKE , AFRAID ARE not used before noun
 
+## Superlative -  It is used for ( a group) and the is used before  Superlative 
 
