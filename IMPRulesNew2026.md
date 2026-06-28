@@ -436,3 +436,21 @@ Each of , One of , some of, both of, Most of
 ## Superlative -  It is used for ( a group) and the is used before  Superlative 
 
 ## The is not used with MOST 
+
+## We dont use superlative/comparatvive degress with words like dead, sad ,complete , annual etc
+
+## Than ke bad adjective ho to er nahi ayega 
+## use more there
+
+## Than ke bad Noun ho to Use Comparative Degree
+
+## Similarity ( as quick as ) dont use as  Comparative Degree as
+
+## Countable Noun ke sath - few use karo
+## Uncountable Noun ke sath  - less
+
+## HE is a  average student in maths (wrong)
+
+## HE is a  student average  in maths (right)
+
+
