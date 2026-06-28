@@ -429,3 +429,5 @@ Each of , One of , some of, both of, Most of
 
 **they are followed by plural noun**
 
+# Always use  One article while reffering one Person 
+
