@@ -421,3 +421,6 @@ She showed us her project.
 - us → Objective Pronoun
 - her → Possessive Determiner
 - project → Noun
+
+
+#  Always use THE before superlative degree
