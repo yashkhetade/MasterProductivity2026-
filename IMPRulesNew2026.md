@@ -431,3 +431,6 @@ Each of , One of , some of, both of, Most of
 
 # Always use  One article while reffering one Person 
 
+## AWARE , ASLEEP, SURE, ASHAMED, FOND, CONCERNED, SORRY , ILL, ALIGHT, ALONE ,AWAKE , AFRAID ARE not used before noun
+
+
