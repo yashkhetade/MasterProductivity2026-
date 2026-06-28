@@ -447,13 +447,13 @@ Each of , One of , some of, both of, Most of
 ## Similarity ( as quick as ) dont use as  Comparative Degree as
 
 ## Countable Noun ke sath - few use karo
-## Uncountable Noun ke sath  - less
+## Uncountable Noun ke sath  - less 
 
 ## HE is a  average student in maths (wrong)
 
 ## HE is a  student average  in maths (right)
 
-## Superior , Elder etc - remove er and read this words you cant find them eg eld , sup
+## For  Superior , Elder etc - remove er and read these words you cant find them eg eld , sup
 
 ## same category ka comparision ho to use ANY OTHER 
 ## eg - gold is costlier than any other metals
@@ -461,4 +461,12 @@ Each of , One of , some of, both of, Most of
 # Comparision Check karo 
 Eg- The price of the truck is higher than car (incorrect)
 
-Eg- The price of the truck is higher than that of car (correct)
+Eg- The price of the truck is higher than **that** of car (correct)
+
+## Use Those and That Properly (use those for plural)
+
+## When Multiples like twice ,thrice are there dont use comparative with them like 
+## eg - thrice taller than  (incorrect)
+## - use thrice as tall as 
+
+
