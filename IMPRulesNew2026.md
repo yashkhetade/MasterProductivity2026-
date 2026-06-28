@@ -498,3 +498,11 @@ Eg- The price of the truck is higher than **that** of car (correct)
 ## agar opposite meaning ho to THOUGH/ALTHOUGH use karo
 
 ## but , while, whereas ,yet - conjunction of  contrast 
+
+## AND BUT  OR 
+### AND - + (jodne ka kam ) , Chronology ka kam 
+### OR - for CHOICE 
+### Negative sentence me OR use karo
+
+# Use Of Dual  CONJUNCTIONS
+Dont use Dual  CONJUNCTIONS 
