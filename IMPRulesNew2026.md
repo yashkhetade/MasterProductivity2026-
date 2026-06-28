@@ -202,7 +202,11 @@ must / ought to / should - used for advice
 ## for negative sentence dont use to with need 
 
 
-# Articles a and The
+# Articles a , an  and The
+
+Vowel Sound of word - use article **an**
+
+Consonent Sound use **a**
 
 a - it is indefinite article (bohat sare me se ek cheez ho)
 
@@ -214,4 +218,8 @@ Eg -  2) Raise **The** Thumb
 
 # By is used for telling the medium  ( IF zero article before noun use by )
 
+# In - for  area , on - surface 
+
+
+# School, University, Temple,Church etc words which are made for a particular purpose so, no article is required before them 
 
