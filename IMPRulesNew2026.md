@@ -487,6 +487,6 @@ Eg- The price of the truck is higher than **that** of car (correct)
 ## If - shart (for conditional situations )
 ## Incase - an action is taken to prepare for a possible event (for precautions )
 
-
+## For Doubt / Uncertanity scenarios always use Conjunction of doubt WHETHER
 
 
