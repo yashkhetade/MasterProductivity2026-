@@ -477,7 +477,16 @@ Eg- The price of the truck is higher than **that** of car (correct)
 # Further - More
 
 
-# CONJUNCTION 
+# CONJUNCTION /CONNECTORS - use to connect clauses (subject + verb = clause)
+
+## Despite - ke bad of nahi aata 
+## Inspite ke bad hamesha of aata hai
+
+# IF / INCASE 
+
+## If - shart (for conditional situations )
+## Incase - an action is taken to prepare for a possible event (for precautions )
+
 
 
 
