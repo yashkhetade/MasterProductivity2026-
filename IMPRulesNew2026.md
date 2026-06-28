@@ -201,3 +201,13 @@ must / ought to / should - used for advice
 
 ## for negative sentence dont use to with need 
 
+
+# Articles a and The
+
+a - it is indefinite article (bohat sare me se ek cheez ho)
+
+The - definite article (Use for the only one )
+
+Eg -  1) Raise **a** Finger 
+
+Eg -  2) Raise **The** Thumb
