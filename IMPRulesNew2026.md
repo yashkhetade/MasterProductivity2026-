@@ -455,5 +455,6 @@ Each of , One of , some of, both of, Most of
 
 ## Superior , Elder etc - remove er and read this words you cant find them eg eld , sup
 
-## 
+## same category ka comparision ho to use ANY OTHER 
+## eg - gold is costlier than any other metals
 
