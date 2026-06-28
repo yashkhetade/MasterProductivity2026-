@@ -223,3 +223,201 @@ Eg -  2) Raise **The** Thumb
 
 # School, University, Temple,Church etc words which are made for a particular purpose so, no article is required before them 
 
+# Concept 5 ) -
+
+**a / an** - + Noun + Of + Possesive
+
+**The** + Noun + of + Objective
+
+
+# Pronouns in English Grammar
+
+Pronouns can change their form depending on how they are used in a sentence.
+
+There are three important forms:
+
+1. Subjective Pronouns (Subject Pronouns)
+2. Objective Pronouns (Object Pronouns)
+3. Determiner Pronouns (Possessive Determiners)
+
+---
+
+# 1. Subjective Pronouns
+
+These pronouns act as the **subject** of a sentence.
+
+They perform the action.
+
+| Person | Subjective Pronoun |
+|----------|----------|
+| First Person Singular | I |
+| Second Person Singular | You |
+| Third Person Singular (Male) | He |
+| Third Person Singular (Female) | She |
+| Third Person Singular (Thing/Animal) | It |
+| First Person Plural | We |
+| Second Person Plural | You |
+| Third Person Plural | They |
+
+## Examples
+
+- I play cricket.
+- You are my friend.
+- He studies hard.
+- She sings well.
+- It is raining.
+- We live in Pune.
+- They work in a bank.
+
+### Structure
+
+Subject + Verb + Object
+
+Example:
+
+I eat apples.
+
+- I → Subjective Pronoun
+- eat → Verb
+- apples → Object
+
+---
+
+# 2. Objective Pronouns
+
+These pronouns act as the **object** of a sentence.
+
+They receive the action.
+
+| Subjective | Objective |
+|------------|------------|
+| I | Me |
+| You | You |
+| He | Him |
+| She | Her |
+| It | It |
+| We | Us |
+| They | Them |
+
+## Examples
+
+- Rahul called me.
+- I helped him.
+- She likes us.
+- We invited them.
+- They saw her.
+
+### Structure
+
+Subject + Verb + Object Pronoun
+
+Example:
+
+Rahul called me.
+
+- Rahul → Subject
+- called → Verb
+- me → Object Pronoun
+
+---
+
+# 3. Determiner Pronouns (Possessive Determiners)
+
+These words come before a noun and show ownership.
+
+| Subjective | Possessive Determiner |
+|------------|----------------------|
+| I | My |
+| You | Your |
+| He | His |
+| She | Her |
+| It | Its |
+| We | Our |
+| They | Their |
+
+## Examples
+
+- My book is new.
+- Your car is fast.
+- His house is big.
+- Her phone is expensive.
+- Its color is black.
+- Our team won.
+- Their office is nearby.
+
+### Structure
+
+Possessive Determiner + Noun
+
+Examples:
+
+- My laptop
+- Your pen
+- His bike
+- Our project
+
+---
+
+# Quick Comparison Table
+
+| Subjective | Objective | Possessive Determiner |
+|------------|------------|----------------------|
+| I | Me | My |
+| You | You | Your |
+| He | Him | His |
+| She | Her | Her |
+| It | It | Its |
+| We | Us | Our |
+| They | Them | Their |
+
+---
+
+# Easy Trick
+
+## Subjective Pronoun
+Does the action.
+
+Example:
+- He plays cricket.
+
+"He" is doing the action.
+
+---
+
+## Objective Pronoun
+Receives the action.
+
+Example:
+- Rahul called him.
+
+"Him" receives the action.
+
+---
+
+## Possessive Determiner
+Shows ownership.
+
+Example:
+- His bat is expensive.
+
+"His" shows ownership of the bat.
+
+---
+
+# One Sentence Using All Three
+
+He gave me his book.
+
+- He → Subjective Pronoun
+- me → Objective Pronoun
+- his → Possessive Determiner
+- book → Noun
+
+Another Example:
+
+She showed us her project.
+
+- She → Subjective Pronoun
+- us → Objective Pronoun
+- her → Possessive Determiner
+- project → Noun
