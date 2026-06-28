@@ -424,3 +424,8 @@ She showed us her project.
 
 
 #  Always use THE before superlative degree
+
+Each of , One of , some of, both of, Most of 
+
+**they are followed by plural noun**
+
