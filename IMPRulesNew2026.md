@@ -469,4 +469,15 @@ Eg- The price of the truck is higher than **that** of car (correct)
 ## eg - thrice taller than  (incorrect)
 ## - use thrice as tall as 
 
+# Farther / Further 
+
+# Far - Distance 
+# Farther - Distance 
+
+# Further - More
+
+
+# CONJUNCTION 
+
+
 
