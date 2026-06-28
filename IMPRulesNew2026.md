@@ -494,3 +494,6 @@ Eg- The price of the truck is higher than **that** of car (correct)
 ## CONJUNCTION of reason - because , as , since , for 
 
 ## agar result diya ho to - so , therefore use karo 
+
+## agar opposite meaning ho to THOUGH/ALTHOUGH use karo
+
