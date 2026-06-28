@@ -211,3 +211,5 @@ The - definite article (Use for the only one )
 Eg -  1) Raise **a** Finger 
 
 Eg -  2) Raise **The** Thumb
+
+
