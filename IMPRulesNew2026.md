@@ -507,4 +507,13 @@ Eg- The price of the truck is higher than **that** of car (correct)
 # Use Of Dual  CONJUNCTIONS
 Dont use Dual  CONJUNCTIONS 
 
-# 
+# Hardly / Scarsly / rarely / barely 
+## They mean almost never 
+## always use WHEN with them 
+
+# No Soonar 
+## always use THAN  with them 
+
+# SUBJECT VERB AGREEMENT 
+## 
+
