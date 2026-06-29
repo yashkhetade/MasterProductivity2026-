@@ -531,3 +531,11 @@ The Verbs are classified as below -
 
 ## Verb Se q pucho WHAT  jo ans mile wo  object hota hai 
 ###  Verb ke turant bad Preposition nahi lagega 
+
+
+## Lie Lay Lain   (pade hona)
+## Lay Laid Laid   (kisi cheez ko rakhna)
+## Rise Rose Risen  (ugna / nikalna)
+## Raise Raised Raised (Uthana )
+## Fall fell fallen  (girna)
+## Fall felled falled  (girana)
