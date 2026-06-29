@@ -530,7 +530,10 @@ The Verbs are classified as below -
 ## Main Verb , Helping Verb and Stative Verbs 
 
 ## Verb Se q pucho WHAT  jo ans mile wo  object hota hai 
-###  Verb ke turant bad Preposition nahi lagega 
+
+###  Verb ke turant bad Preposition nahi lagega agar ans aaya to 
+
+### Ans Nahi aaya to lagega
 
 
 ## Lie Lay Lain   (pade hona)
@@ -539,3 +542,5 @@ The Verbs are classified as below -
 ## Raise Raised Raised (Uthana )
 ## Fall fell fallen  (girna)
 ## Fall felled falled  (girana)
+
+
