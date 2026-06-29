@@ -521,3 +521,7 @@ Dont use Dual  CONJUNCTIONS
 1) Identify Verb
 2) Verb ke pehle Subject aur Verb ke bad Object 
 
+## Preposition ke bad wala Noun Prepositional Object Hota Hai
+
+## Preposition ke pehle Check karo Noun Singular hai to Verb bhi singular hoga
+
