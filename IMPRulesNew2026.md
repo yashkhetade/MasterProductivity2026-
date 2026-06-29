@@ -529,5 +529,5 @@ Dont use Dual  CONJUNCTIONS
 The Verbs are classified as below -
 ## Main Verb , Helping Verb and Stative Verbs 
 
-## Verb Se q pucho WHAT  jo ans mile wo  object hota hai
-
+## Verb Se q pucho WHAT  jo ans mile wo  object hota hai 
+###  Verb ke turant bad Preposition nahi lagega 
