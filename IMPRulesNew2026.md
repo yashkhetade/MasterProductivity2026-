@@ -515,5 +515,9 @@ Dont use Dual  CONJUNCTIONS
 ## always use THAN  with them 
 
 # SUBJECT VERB AGREEMENT 
-## 
+## How to find subject - ?
+
+## Follow 2 steps -
+1) Identify Verb
+2) Verb ke pehle Subject aur Verb ke bad Object 
 
