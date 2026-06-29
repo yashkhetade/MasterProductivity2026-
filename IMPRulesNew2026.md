@@ -525,3 +525,9 @@ Dont use Dual  CONJUNCTIONS
 
 ## Preposition ke pehle Check karo Noun Singular hai to Verb bhi singular hoga
 
+# Verbs and More 
+The Verbs are classified as below -
+## Main Verb , Helping Verb and Stative Verbs 
+
+## Verb Se q pucho WHAT  jo ans mile wo  object hota hai
+
