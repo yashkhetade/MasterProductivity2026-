@@ -28,3 +28,5 @@ etc
 
 ## Arity - Degree Of Table i.e  no of attributes of table
 
+## In a DBMS, cardinality refers to the number of elements in a set. It is used in two primary contexts: table cardinality (the number of rows in a table) and relationship cardinality (how instances of one entity relate to instances of another)
+
