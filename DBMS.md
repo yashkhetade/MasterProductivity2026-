@@ -1,5 +1,5 @@
 
-# Data - All facts and Figure Randomly placed
+# Data - All facts and Figure
 Eg - Student Roll no , name etc in College
 
 # Raw Fact -
