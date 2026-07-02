@@ -1,4 +1,4 @@
-# IBPS SO IT Officer Linux Handbook
+# Linux Handbook
 ## Part 01 – Introduction to Linux & UNIX
 
 > This is Part 1 of the handbook.
