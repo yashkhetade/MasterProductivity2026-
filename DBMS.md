@@ -11,9 +11,9 @@ like roll no - 23
 name - yash
 etc 
 
-# Now the raw fact is converted into information because it has some meaning now
+#  Now the raw fact is converted into information because it has some meaning now
 
-
+## We store data in structured format in database 
 
 
 
