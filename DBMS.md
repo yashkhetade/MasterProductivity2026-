@@ -15,5 +15,11 @@ etc
 
 ## We store data in structured format in database 
 
+## We need one software which is used to manage this database 
+### manage means CRUD operations
+
+## It is done through DBMS (Database Management System)
+
+### It may rdbms or dbms 
 
 
