@@ -63,6 +63,8 @@ X → Y
 Here, X is the determinant, and Y is the dependent attribute. This means that for each unique value of X, there is precisely one corresponding value of Y.
 
 
+# Types of Functional dependencies in DBMS
 
+LINK - https://www.geeksforgeeks.org/dbms/types-of-functional-dependencies-in-dbms/
 
 
