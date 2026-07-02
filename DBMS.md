@@ -26,3 +26,5 @@ etc
 
 ## coloumns of table in dbms  are called as attributes or fields
 
+## Arity - Degree Of Table i.e  no of attributes of table
+
