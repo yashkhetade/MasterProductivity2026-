@@ -33,6 +33,10 @@ etc
 
 ## Relation is called as table (Subset of all domains)
 
+## Cardinality in DBMS
+
+LINK - https://www.geeksforgeeks.org/dbms/cardinality-in-dbms/
+
 ## Attributes Types -
 
 LINK - https://www.geeksforgeeks.org/dbms/attributes-in-dbms/
@@ -44,4 +48,8 @@ Eg - Domain of adhar number will be its 12 digit value
 
 ## Intension -   (refers to the database schema, which is the fixed, permanent blueprint of how data is structured)
 
+# X -> Y 
+It means if you know X , you can find Y
+
+X is called 
 
