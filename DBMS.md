@@ -20,6 +20,9 @@ etc
 
 ## It is done through DBMS (Database Management System)
 
-### It may rdbms or dbms 
+### It may rdbms or nosql database
 
+## Rows in a database table are primarily called tuples (in formal database theory) or records (in everyday terminology and file systems)
+
+## coloumns of table in dbms  are called as attributes or fields
 
