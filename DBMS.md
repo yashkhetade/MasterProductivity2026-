@@ -37,6 +37,6 @@ etc
 
 LINK - https://www.geeksforgeeks.org/dbms/attributes-in-dbms/
 
-
+#  A domain is the set of all possible values that an attribute can take
 
 
