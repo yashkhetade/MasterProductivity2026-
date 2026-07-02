@@ -48,8 +48,21 @@ Eg - Domain of adhar number will be its 12 digit value
 
 ## Intension -   (refers to the database schema, which is the fixed, permanent blueprint of how data is structured)
 
+
 # X -> Y 
 It means if you know X , you can find Y
 
-X is called 
+# Functional Dependency in DBMS
+
+LINK - https://www.geeksforgeeks.org/dbms/what-is-functional-dependency-in-dbms/
+
+### A functional dependency occurs when the value of one attribute (or a set of attributes) uniquely determines the value of another attribute
+
+X → Y
+
+Here, X is the determinant, and Y is the dependent attribute. This means that for each unique value of X, there is precisely one corresponding value of Y.
+
+
+
+
 
