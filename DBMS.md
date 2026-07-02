@@ -1,5 +1,5 @@
 
-# Data - All facts and Figure 
+# Data - All facts and Figure Randomly placed
 Eg - Student Roll no , name etc in College
 
 # Raw Fact -
@@ -12,6 +12,7 @@ name - yash
 etc 
 
 # Now the raw fact is converted into information because it has some meaning now
+
 
 
 
