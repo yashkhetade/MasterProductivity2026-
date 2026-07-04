@@ -4,7 +4,7 @@ LINK - https://www.geeksforgeeks.org/dbms/introduction-of-relational-algebra-in-
 
 
 # Chapter 1: Introduction to Relational Algebra (RA)
-## GATE CSE + IBPS SO IT Officer Complete Notes
+## GATE CSE
 
 ---
 
@@ -7772,3 +7772,2009 @@ This chapter will include:
 - Step-by-step solutions
 - Shortcuts and elimination techniques
 
+
+# Chapter 8 – Part 1
+# GATE CSE & IBPS SO IT Officer
+# 50 Solved Relational Algebra Questions
+## Questions 1–15 (Basic to Intermediate)
+
+---
+
+# How to Solve Every Relational Algebra Question
+
+Before solving any question, follow this algorithm.
+
+```
+Read Question
+
+↓
+
+Identify Relation(s)
+
+↓
+
+Identify Operator
+
+↓
+
+Solve Inside Brackets First
+
+↓
+
+Write Intermediate Relation
+
+↓
+
+Apply Next Operator
+
+↓
+
+Repeat Until Final Answer
+```
+
+Never solve everything at once.
+
+---
+
+# Question 1 (Selection)
+
+Relation Employee
+
+|EmpID|Name|Dept|Salary|
+|----|----|----|------|
+|101|Rahul|IT|50000|
+|102|Amit|HR|40000|
+|103|Neha|IT|70000|
+|104|Pooja|Sales|30000|
+
+Find
+
+```
+σ Salary>45000(Employee)
+```
+
+---
+
+## Step 1
+
+Check every tuple.
+
+Rahul
+
+50000
+
+✔
+
+---
+
+Amit
+
+40000
+
+✘
+
+---
+
+Neha
+
+70000
+
+✔
+
+---
+
+Pooja
+
+30000
+
+✘
+
+---
+
+Result
+
+|EmpID|Name|Dept|Salary|
+|----|----|----|------|
+|101|Rahul|IT|50000|
+|103|Neha|IT|70000|
+
+---
+
+Shortcut
+
+Selection
+
+↓
+
+Rows
+
+---
+
+# Question 2 (Projection)
+
+Employee
+
+|ID|Name|Dept|
+|--|----|----|
+|1|Rahul|IT|
+|2|Amit|HR|
+|3|Neha|IT|
+
+Find
+
+```
+π Dept(Employee)
+```
+
+---
+
+Step 1
+
+Choose Dept column
+
+|Dept|
+|----|
+|IT|
+|HR|
+|IT|
+
+---
+
+Step 2
+
+Remove duplicates
+
+|Dept|
+|----|
+|IT|
+|HR|
+
+Answer
+
+```
+IT
+
+HR
+```
+
+---
+
+Exam Trick
+
+Projection automatically removes duplicate tuples.
+
+---
+
+# Question 3
+
+Employee
+
+|ID|Dept|
+|--|----|
+|1|IT|
+|2|IT|
+|3|HR|
+|4|Sales|
+
+Find
+
+```
+π Dept(Employee)
+```
+
+Answer
+
+```
+IT
+
+HR
+
+Sales
+```
+
+Not
+
+```
+IT
+
+IT
+
+HR
+
+Sales
+```
+
+---
+
+# Question 4 (Selection + Projection)
+
+Employee
+
+|ID|Name|Dept|
+|--|----|----|
+|1|Rahul|IT|
+|2|Amit|HR|
+|3|Neha|IT|
+
+Find
+
+```
+π Name
+
+(
+
+σ Dept='IT'
+
+(Employee)
+
+)
+```
+
+---
+
+Step 1
+
+Selection
+
+|ID|Name|Dept|
+|--|----|----|
+|1|Rahul|IT|
+|3|Neha|IT|
+
+---
+
+Step 2
+
+Projection
+
+|Name|
+|----|
+|Rahul|
+|Neha|
+
+Answer
+
+Rahul
+
+Neha
+
+---
+
+Exam Shortcut
+
+```
+σ
+
+↓
+
+π
+```
+
+Always
+
+Selection first.
+
+Projection second.
+
+---
+
+# Question 5 (Union)
+
+R
+
+|A|
+|--|
+|1|
+|2|
+|3|
+
+S
+
+|A|
+|--|
+|3|
+|4|
+|5|
+
+Find
+
+```
+R∪S
+```
+
+---
+
+Step
+
+Combine both.
+
+Remove duplicates.
+
+Answer
+
+|A|
+|--|
+|1|
+|2|
+|3|
+|4|
+|5|
+
+---
+
+Important
+
+Union requires
+
+Union Compatibility.
+
+---
+
+# Question 6 (Difference)
+
+R
+
+|A|
+|--|
+|1|
+|2|
+|3|
+|4|
+
+S
+
+|A|
+|--|
+|2|
+|4|
+
+Find
+
+```
+R−S
+```
+
+Answer
+
+|A|
+|--|
+|1|
+|3|
+
+---
+
+Exam Trick
+
+Difference means
+
+First
+
+Minus
+
+Second
+
+---
+
+# Question 7
+
+Find
+
+```
+S−R
+```
+
+Answer
+
+Empty Relation
+
+Because
+
+All values already exist in R.
+
+Answer
+
+```
+∅
+```
+
+---
+
+Very Important
+
+Difference
+
+is
+
+NOT
+
+commutative.
+
+---
+
+# Question 8 (Intersection)
+
+R
+
+|A|
+|--|
+|1|
+|2|
+|3|
+
+S
+
+|A|
+|--|
+|2|
+|3|
+|4|
+
+Find
+
+```
+R∩S
+```
+
+Answer
+
+|A|
+|--|
+|2|
+|3|
+
+---
+
+Shortcut
+
+Intersection
+
+↓
+
+Common Values
+
+---
+
+# Question 9 (Cartesian Product)
+
+R
+
+|A|
+|--|
+|1|
+|2|
+
+S
+
+|B|
+|--|
+|X|
+|Y|
+
+Find
+
+```
+R×S
+```
+
+---
+
+Answer
+
+|A|B|
+|--|--|
+|1|X|
+|1|Y|
+|2|X|
+|2|Y|
+
+Rows
+
+```
+2×2
+
+=
+
+4
+```
+
+---
+
+Shortcut
+
+Every
+
+×
+
+Every
+
+---
+
+# Question 10
+
+If
+
+```
+|R|=8
+
+|S|=5
+```
+
+Find
+
+```
+|R×S|
+```
+
+Answer
+
+```
+40
+```
+
+No need to know tuples.
+
+Only use formula.
+
+---
+
+# Question 11
+
+Maximum tuples in
+
+```
+R∪S
+```
+
+Given
+
+```
+|R|=20
+
+|S|=15
+```
+
+Maximum
+
+```
+35
+```
+
+When
+
+No duplicates.
+
+---
+
+Minimum
+
+```
+20
+```
+
+When
+
+S is subset of R.
+
+---
+
+# Question 12
+
+Maximum tuples in
+
+```
+R∩S
+```
+
+Given
+
+```
+|R|=10
+
+|S|=7
+```
+
+Answer
+
+```
+7
+```
+
+Formula
+
+```
+min
+
+(
+
+10,
+
+7
+
+)
+
+=
+
+7
+```
+
+---
+
+# Question 13
+
+Given
+
+```
+|R|=15
+
+|S|=9
+```
+
+Minimum tuples in
+
+```
+R∩S
+```
+
+Answer
+
+```
+0
+```
+
+---
+
+# Question 14
+
+Employee
+
+|ID|Dept|Salary|
+|--|----|------|
+|1|IT|60000|
+|2|HR|40000|
+|3|IT|55000|
+
+Find
+
+```
+π ID
+
+(
+
+σ Salary>50000
+
+(Employee)
+
+)
+```
+
+---
+
+Step 1
+
+Selection
+
+|ID|Dept|Salary|
+|--|----|------|
+|1|IT|60000|
+|3|IT|55000|
+
+---
+
+Step 2
+
+Projection
+
+|ID|
+|--|
+|1|
+|3|
+
+Answer
+
+```
+1
+
+3
+```
+
+---
+
+# Question 15 (IBPS SO Pattern)
+
+Which operator selects rows?
+
+A
+
+Projection
+
+B
+
+Selection
+
+C
+
+Join
+
+D
+
+Rename
+
+---
+
+Solution
+
+Rows
+
+↓
+
+Selection
+
+Answer
+
+B
+
+---
+
+# IBPS SO Quick MCQs
+
+### Q1
+
+Projection works on
+
+A Rows
+
+B Columns
+
+Answer
+
+Columns
+
+---
+
+### Q2
+
+Selection works on
+
+A Rows
+
+B Columns
+
+Answer
+
+Rows
+
+---
+
+### Q3
+
+Union removes
+
+A Columns
+
+B Duplicate Tuples
+
+C Attributes
+
+D NULL
+
+Answer
+
+Duplicate Tuples
+
+---
+
+### Q4
+
+Cartesian Product produces
+
+A Matching tuples
+
+B Every possible pair
+
+C Common tuples
+
+D Difference
+
+Answer
+
+Every possible pair
+
+---
+
+### Q5
+
+Difference is
+
+A Commutative
+
+B Not Commutative
+
+Answer
+
+Not Commutative
+
+---
+
+# Frequently Used GATE Formulas
+
+### Cartesian Product
+
+```
+|R×S|
+
+=
+
+|R|
+
+×
+
+|S|
+```
+
+---
+
+### Maximum Union
+
+```
+|R|+|S|
+```
+
+---
+
+### Minimum Union
+
+```
+max
+
+(
+
+|R|,
+
+|S|
+
+)
+```
+
+---
+
+### Maximum Intersection
+
+```
+min
+
+(
+
+|R|,
+
+|S|
+
+)
+```
+
+---
+
+### Minimum Intersection
+
+```
+0
+```
+
+---
+
+### Maximum Difference
+
+```
+|R|
+```
+
+---
+
+### Minimum Difference
+
+```
+0
+```
+
+---
+
+# Memory Tricks
+
+Selection
+
+↓
+
+Rows
+
+Think
+
+**Select Students**
+
+---
+
+Projection
+
+↓
+
+Columns
+
+Think
+
+**Project Screen**
+
+---
+
+Union
+
+↓
+
+Everything Together
+
+---
+
+Difference
+
+↓
+
+Remove Second
+
+---
+
+Intersection
+
+↓
+
+Common Part
+
+---
+
+Cartesian Product
+
+↓
+
+Every Pair
+
+---
+
+# Common Mistakes
+
+❌ Projection keeps duplicates
+
+✔ Duplicate tuples removed
+
+---
+
+❌ Difference is commutative
+
+✔
+
+```
+R−S
+
+≠
+
+S−R
+```
+
+---
+
+❌ Cartesian Product joins only matching tuples
+
+✔ It joins every tuple with every tuple
+
+---
+
+❌ Selection removes columns
+
+✔ It removes rows
+
+---
+
+# Chapter 8 Part 1 Summary
+
+You have learned to solve questions on:
+
+- ✅ Selection
+- ✅ Projection
+- ✅ Selection + Projection
+- ✅ Union
+- ✅ Difference
+- ✅ Intersection
+- ✅ Cartesian Product
+- ✅ Cardinality formulas
+- ✅ IBPS SO conceptual MCQs
+- ✅ GATE numerical shortcuts
+
+---
+
+# Coming in Part 2 (Questions 16–30)
+
+- Theta Join
+- Equi Join
+- Natural Join
+- Left Outer Join
+- Right Outer Join
+- Full Outer Join
+- Join Cardinality Questions
+- GATE Previous-Year Style Problems
+- Hidden Tricks Used in Exams
+
+# Chapter 8 – Part 2
+# GATE CSE & IBPS SO IT Officer
+# 50 Solved Relational Algebra Questions
+## Questions 16–30 (Joins)
+
+---
+
+# Introduction
+
+This chapter covers the **most important topic of Relational Algebra**.
+
+> **JOIN**
+
+Nearly **70% of GATE Relational Algebra questions** involve joins.
+
+IBPS SO asks conceptual questions like:
+
+- Difference between Natural Join and Equi Join
+- Which join removes duplicate columns?
+- Which join keeps unmatched rows?
+
+---
+
+# Types of Join
+
+```
+JOIN
+│
+├── Theta Join
+├── Equi Join
+├── Natural Join
+├── Left Outer Join
+├── Right Outer Join
+└── Full Outer Join
+```
+
+---
+
+# Question 16 (Theta Join)
+
+R(A,B)
+
+|A|B|
+|--|--|
+|1|10|
+|2|20|
+|3|30|
+
+S(B,C)
+
+|B|C|
+|--|--|
+|15|X|
+|20|Y|
+|25|Z|
+
+Find
+
+```
+R ⋈ (R.B > S.B) S
+```
+
+---
+
+## Step 1
+
+Compare every pair.
+
+For
+
+```
+10 > 15
+```
+
+False
+
+---
+
+```
+20 > 15
+```
+
+True ✔
+
+---
+
+```
+20 > 20
+```
+
+False
+
+---
+
+```
+30 >15
+```
+
+True ✔
+
+```
+30 >20
+```
+
+True ✔
+
+```
+30 >25
+```
+
+True ✔
+
+---
+
+Result
+
+|A|R.B|S.B|C|
+|--|---|---|--|
+|2|20|15|X|
+|3|30|15|X|
+|3|30|20|Y|
+|3|30|25|Z|
+
+---
+
+Shortcut
+
+Theta Join
+
+↓
+
+Any comparison operator
+
+---
+
+# Question 17 (Equi Join)
+
+Employee
+
+|ID|DeptID|
+|--|------|
+|1|10|
+|2|20|
+|3|30|
+
+Department
+
+|DeptID|DeptName|
+|------|--------|
+|10|IT|
+|20|HR|
+|40|Sales|
+
+Find
+
+```
+Employee
+
+⋈ Employee.DeptID=Department.DeptID
+
+Department
+```
+
+---
+
+Matching
+
+10
+
+20
+
+Only
+
+Answer
+
+|ID|DeptID|DeptID|DeptName|
+|--|------|------|--------|
+|1|10|10|IT|
+|2|20|20|HR|
+
+---
+
+Notice
+
+Duplicate DeptID remains.
+
+---
+
+Exam Trick
+
+Equi Join
+
+↓
+
+Duplicate join columns stay.
+
+---
+
+# Question 18 (Natural Join)
+
+Same relations.
+
+Find
+
+```
+Employee ⋈ Department
+```
+
+---
+
+Matching
+
+10
+
+20
+
+Answer
+
+|ID|DeptID|DeptName|
+|--|------|--------|
+|1|10|IT|
+|2|20|HR|
+
+---
+
+Notice
+
+Only ONE DeptID column.
+
+---
+
+Shortcut
+
+Natural Join
+
+↓
+
+Duplicate join column removed.
+
+---
+
+# Question 19
+
+Difference between Equi Join and Natural Join?
+
+Answer
+
+|Equi Join|Natural Join|
+|----------|------------|
+|Condition written explicitly|Automatic|
+|Duplicate columns remain|Duplicate columns removed|
+
+---
+
+Most repeated theory question.
+
+---
+
+# Question 20
+
+Employee
+
+|ID|Dept|
+|--|----|
+|1|IT|
+|2|HR|
+|3|Sales|
+
+Department
+
+|Dept|Manager|
+|----|-------|
+|IT|A|
+|HR|B|
+
+Natural Join?
+
+---
+
+Result
+
+|ID|Dept|Manager|
+|--|----|-------|
+|1|IT|A|
+|2|HR|B|
+
+Sales removed.
+
+Reason
+
+No matching department.
+
+---
+
+# Question 21 (Left Outer Join)
+
+Employee
+
+|ID|Dept|
+|--|----|
+|1|IT|
+|2|HR|
+|3|Sales|
+
+Department
+
+|Dept|Manager|
+|----|-------|
+|IT|A|
+|HR|B|
+
+Find
+
+Left Outer Join
+
+---
+
+Answer
+
+|ID|Dept|Manager|
+|--|----|-------|
+|1|IT|A|
+|2|HR|B|
+|3|Sales|NULL|
+
+---
+
+Memory Trick
+
+LEFT
+
+↓
+
+Keep everything on left.
+
+---
+
+# Question 22 (Right Outer Join)
+
+Employee
+
+|ID|Dept|
+|--|----|
+|1|IT|
+|2|HR|
+
+Department
+
+|Dept|Manager|
+|----|-------|
+|IT|A|
+|HR|B|
+|Sales|C|
+
+Answer
+
+|ID|Dept|Manager|
+|--|----|-------|
+|1|IT|A|
+|2|HR|B|
+|NULL|Sales|C|
+
+---
+
+Memory Trick
+
+RIGHT
+
+↓
+
+Keep everything on right.
+
+---
+
+# Question 23 (Full Outer Join)
+
+Employee
+
+|ID|Dept|
+|--|----|
+|1|IT|
+|2|HR|
+|3|Finance|
+
+Department
+
+|Dept|Manager|
+|----|-------|
+|IT|A|
+|HR|B|
+|Sales|C|
+
+Answer
+
+|ID|Dept|Manager|
+|--|----|-------|
+|1|IT|A|
+|2|HR|B|
+|3|Finance|NULL|
+|NULL|Sales|C|
+
+---
+
+Remember
+
+Full Outer Join
+
+↓
+
+Keeps
+
+Everything
+
+---
+
+# Question 24
+
+Which join removes duplicate columns?
+
+A
+
+Theta Join
+
+B
+
+Equi Join
+
+C
+
+Natural Join
+
+D
+
+Outer Join
+
+---
+
+Answer
+
+Natural Join
+
+---
+
+# Question 25
+
+Which join uses
+
+```
+>
+
+<
+
+>=
+
+<=
+```
+
+Answer
+
+Theta Join
+
+---
+
+# Question 26
+
+Employee
+
+3 tuples
+
+Department
+
+5 tuples
+
+Maximum tuples after Cartesian Product?
+
+Formula
+
+```
+3×5
+
+=
+
+15
+```
+
+Answer
+
+15
+
+---
+
+# Question 27
+
+Employee
+
+|ID|Dept|
+|--|----|
+|1|10|
+|2|20|
+
+Department
+
+|Dept|Name|
+|----|----|
+|10|IT|
+|20|HR|
+
+Expression
+
+```
+π Name
+
+(
+
+Employee
+
+⋈
+
+Department
+
+)
+```
+
+---
+
+Step 1
+
+Join
+
+↓
+
+|ID|Dept|Name|
+|--|----|----|
+|1|10|IT|
+|2|20|HR|
+
+---
+
+Projection
+
+↓
+
+|Name|
+|----|
+|IT|
+|HR|
+
+---
+
+# Question 28 (GATE Pattern)
+
+R(A,B)
+
+|A|B|
+|--|--|
+|1|10|
+|2|20|
+|3|30|
+
+S(B,C)
+
+|B|C|
+|--|--|
+|20|X|
+|30|Y|
+
+Find
+
+```
+πA(R⋈S)
+```
+
+---
+
+Join
+
+↓
+
+|A|B|C|
+|--|--|--|
+|2|20|X|
+|3|30|Y|
+
+Projection
+
+↓
+
+|A|
+|--|
+|2|
+|3|
+
+Answer
+
+```
+2
+
+3
+```
+
+---
+
+# Question 29 (Very Important GATE)
+
+R(A,B)
+
+|A|B|
+|--|--|
+|1|10|
+|2|20|
+|3|30|
+|4|40|
+
+S(B,C)
+
+|B|C|
+|--|--|
+|20|X|
+|30|Y|
+
+Find
+
+```
+πA(R)
+
+−
+
+πA(R⋈S)
+```
+
+---
+
+Step 1
+
+```
+πA(R)
+```
+
+↓
+
+```
+1
+
+2
+
+3
+
+4
+```
+
+---
+
+Step 2
+
+Join
+
+↓
+
+```
+2
+
+3
+```
+
+---
+
+Difference
+
+↓
+
+```
+1
+
+4
+```
+
+---
+
+Meaning
+
+Values of
+
+A
+
+having NO matching tuple.
+
+---
+
+This is among the **most frequently asked GATE patterns**.
+
+---
+
+# Question 30 (IBPS SO)
+
+Which statement is TRUE?
+
+A
+
+Equi Join removes duplicate columns.
+
+B
+
+Natural Join removes duplicate columns.
+
+C
+
+Theta Join uses only =.
+
+D
+
+Outer Join removes NULL values.
+
+---
+
+Solution
+
+A
+
+False
+
+B
+
+True ✔
+
+C
+
+False
+
+D
+
+False
+
+Answer
+
+B
+
+---
+
+# IBPS SO Practice MCQs
+
+### Q31
+
+Join combines
+
+A Rows
+
+B Columns
+
+C Relations
+
+D Keys
+
+Answer
+
+Relations
+
+---
+
+### Q32
+
+Natural Join is based on
+
+A Same Attribute Name
+
+B Primary Key
+
+C Tuple Number
+
+D Index
+
+Answer
+
+Same Attribute Name
+
+---
+
+### Q33
+
+Which join keeps unmatched tuples?
+
+A Natural Join
+
+B Equi Join
+
+C Outer Join
+
+D Theta Join
+
+Answer
+
+Outer Join
+
+---
+
+### Q34
+
+Theta Join is a
+
+A Selection
+
+B Projection
+
+C Generalized Join
+
+D Difference
+
+Answer
+
+Generalized Join
+
+---
+
+### Q35
+
+Which join keeps duplicate join attributes?
+
+A Natural Join
+
+B Equi Join
+
+Answer
+
+Equi Join
+
+---
+
+# Frequently Asked GATE Facts
+
+### Natural Join
+
+Automatically joins common attributes.
+
+---
+
+### Equi Join
+
+Uses "=" only.
+
+---
+
+### Theta Join
+
+Uses
+
+```
+=
+
+>
+
+<
+
+>=
+
+<=
+
+≠
+```
+
+---
+
+### Outer Join
+
+Preserves unmatched tuples.
+
+---
+
+# Memory Tricks
+
+### Theta Join
+
+Think
+
+**T = Test**
+
+Any comparison.
+
+---
+
+### Equi Join
+
+Think
+
+**Equal (=)**
+
+---
+
+### Natural Join
+
+Think
+
+**Natural removes duplicate column**
+
+---
+
+### Left Outer Join
+
+Left survives.
+
+---
+
+### Right Outer Join
+
+Right survives.
+
+---
+
+### Full Outer Join
+
+Everyone survives.
+
+---
+
+# Common Mistakes
+
+❌ Natural Join keeps duplicate columns.
+
+✔ Removed.
+
+---
+
+❌ Equi Join removes duplicates.
+
+✔ It does not.
+
+---
+
+❌ Outer Join removes NULL.
+
+✔ Outer Join creates NULL values for unmatched rows.
+
+---
+
+❌ Theta Join only uses "=".
+
+✔ It uses any comparison operator.
+
+---
+
+# Quick Revision Table
+
+| Join | Key Feature |
+|------|-------------|
+|Theta Join|Any comparison operator|
+|Equi Join|Uses "=" only|
+|Natural Join|Automatic join + removes duplicate join columns|
+|Left Outer Join|Keeps all left tuples|
+|Right Outer Join|Keeps all right tuples|
+|Full Outer Join|Keeps all tuples|
+
+---
+
+# Chapter 8 Part 2 Summary
+
+In this part, you mastered:
+
+- ✅ Theta Join
+- ✅ Equi Join
+- ✅ Natural Join
+- ✅ Left Outer Join
+- ✅ Right Outer Join
+- ✅ Full Outer Join
+- ✅ Join evaluation
+- ✅ GATE expression `πA(R⋈S)`
+- ✅ Famous GATE expression `πA(R) − πA(R⋈S)`
+- ✅ IBPS SO conceptual MCQs
+- ✅ Join comparison tricks
+
+---
+
+# Coming in Part 3 (Questions 31–40)
+
+Topics covered:
+
+- Division Operator (Most Difficult)
+- "ALL" Type Questions
+- SQL ↔ Relational Algebra Conversion
+- Nested Expressions
+- GATE Previous-Year Numerical Questions
+- Advanced Problem-Solving Techniques
+```
