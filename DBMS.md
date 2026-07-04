@@ -97,4 +97,6 @@ LINK - https://youtu.be/_UZLrD_R0T4?si=D2Ovi9gJjusbUjhr
 LINK - https://youtu.be/RRUeFwuJ39Q?si=wjDd__bXedi3PVcz
 
 
+# DRC and TRC 
 
+LINK - https://www.geeksforgeeks.org/dbms/domain-relational-calculus-in-dbms/
