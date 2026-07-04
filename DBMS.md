@@ -95,3 +95,7 @@ LINK- https://www.geeksforgeeks.org/dbms/dbms-integrity-constraints/
 LINK - https://youtu.be/_UZLrD_R0T4?si=D2Ovi9gJjusbUjhr
 
 LINK - https://youtu.be/RRUeFwuJ39Q?si=wjDd__bXedi3PVcz
+
+# Introduction to Relational Algebra in DBMS
+
+LINK - https://www.geeksforgeeks.org/dbms/introduction-of-relational-algebra-in-dbms/
