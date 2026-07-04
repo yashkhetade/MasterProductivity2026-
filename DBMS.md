@@ -70,5 +70,8 @@ LINK - https://www.geeksforgeeks.org/dbms/types-of-functional-dependencies-in-db
 # Armstrong's Axioms in Functional Dependency in DBMS
 LINK - https://www.geeksforgeeks.org/dbms/armstrongs-axioms-in-functional-dependency-in-dbms/
 
+# If A -> B and B -> C Then (A)+ is a closure set 
+## Values of  (A)+  will  be A , B , AB , ABC 
+## A pata hai to B and C related nikal jayega   
 
 
