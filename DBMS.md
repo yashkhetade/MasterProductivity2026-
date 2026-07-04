@@ -79,6 +79,8 @@ LINK - https://www.geeksforgeeks.org/dbms/armstrongs-axioms-in-functional-depend
 # Trick - 
 
 # VIP ER -
-One Table is required for One Entity 
-For One to one no table is  required
-and for many to many One Table is required 
+## One Table is required for One Entity 
+
+## For One to one no table is  required
+
+## and for many to many One Table is required 
