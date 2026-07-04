@@ -100,3 +100,7 @@ LINK - https://youtu.be/RRUeFwuJ39Q?si=wjDd__bXedi3PVcz
 # DRC and TRC 
 
 LINK - https://www.geeksforgeeks.org/dbms/domain-relational-calculus-in-dbms/
+
+# Order of Execution of SQL Queries
+
+LINK - https://www.geeksforgeeks.org/sql/order-of-execution-of-sql-queries/
