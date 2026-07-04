@@ -67,4 +67,8 @@ Here, X is the determinant, and Y is the dependent attribute. This means that fo
 
 LINK - https://www.geeksforgeeks.org/dbms/types-of-functional-dependencies-in-dbms/
 
+# Armstrong's Axioms in Functional Dependency in DBMS
+LINK - https://www.geeksforgeeks.org/dbms/armstrongs-axioms-in-functional-dependency-in-dbms/
+
+
 
