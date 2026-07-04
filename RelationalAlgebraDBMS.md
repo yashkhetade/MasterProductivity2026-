@@ -7762,7 +7762,7 @@ Gamma (γ)
 
 # What's Next?
 
-## Chapter 8: GATE & IBPS SO Previous-Year Style Relational Algebra Questions (50+ Solved)
+## Chapter 8: GATE & IBPS SO Previous-Year Style Relational Algebra Questions 
 
 This chapter will include:
 - Real GATE-level pattern questions
