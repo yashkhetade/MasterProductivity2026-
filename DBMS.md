@@ -74,4 +74,4 @@ LINK - https://www.geeksforgeeks.org/dbms/armstrongs-axioms-in-functional-depend
 ## Values of  (A)+  will  be A , B , AB , ABC 
 ## A pata hai to B and C related nikal jayega   
 
-
+# X -> Y  means X implies Y ( Read It Like X pata hai to Y Nikal Jayega)
