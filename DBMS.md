@@ -75,3 +75,10 @@ LINK - https://www.geeksforgeeks.org/dbms/armstrongs-axioms-in-functional-depend
 ## A pata hai to B and C related nikal jayega   
 
 # X -> Y  means X implies Y ( Read It Like X pata hai to Y Nikal Jayega)
+
+# Trick - 
+
+# VIP ER -
+One Table is required for One Entity 
+For One to one no table is  required
+and for many to many One Table is required 
