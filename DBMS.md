@@ -83,4 +83,11 @@ LINK - https://www.geeksforgeeks.org/dbms/armstrongs-axioms-in-functional-depend
 
 ## For One to one no table is  required
 
+## For Relationship one table is required 
+
 ## and for many to many One Table is required 
+
+# Integrity Constraints
+
+LINK- https://www.geeksforgeeks.org/dbms/dbms-integrity-constraints/
+
