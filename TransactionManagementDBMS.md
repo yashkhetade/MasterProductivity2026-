@@ -26,4 +26,5 @@ Transaction: When a user performs a money transfer, several operations occur, su
 
 #### 4) Durability: Once a transaction is committed, its changes stay even if the system crashes. Example: After a successful transfer, the updated balance remains safe despite a power failure.
 
-
+# Transaction States 
+LINK - https://www.geeksforgeeks.org/dbms/transaction-states-in-dbms/
