@@ -2042,3 +2042,2466 @@ Remember this formula for **IBPS SO**, **GATE**, **University exams**, and **int
 
 ---
 
+# DBMS Notes
+# Lossy vs Lossless Decomposition (Part 3)
+## Solved Problems | Exam Tricks | GATE | IBPS SO | University | Placement
+
+---
+
+# Table of Contents
+
+1. How Questions are Asked in Exams
+2. Step-by-Step Solving Strategy
+3. Shortcut Algorithm
+4. Solved Problems (Basic to Advanced)
+5. University Questions
+6. GATE-Level Questions
+7. IBPS SO Style Questions
+8. Common Mistakes
+9. Practice Questions (Without Solutions)
+10. Topper Revision Sheet
+
+---
+
+# How Questions are Asked in Exams
+
+Generally, examiners ask questions in one of the following ways:
+
+### Type 1
+
+Is the following decomposition Lossless or Lossy?
+
+---
+
+### Type 2
+
+Prove whether the decomposition is Lossless using Functional Dependency.
+
+---
+
+### Type 3
+
+Use Chase Test to verify decomposition.
+
+---
+
+### Type 4
+
+Which of the following decompositions is Lossless?
+
+(MCQ)
+
+---
+
+### Type 5
+
+Which decomposition generates spurious tuples?
+
+(MCQ)
+
+---
+
+# Universal Solving Strategy
+
+Whenever you see a decomposition problem, follow these five steps.
+
+```
+STEP 1
+
+Find Common Attributes
+
+↓
+
+STEP 2
+
+Write Functional Dependencies
+
+↓
+
+STEP 3
+
+Check
+
+(Common Attribute)
+
+↓
+
+Determines R1 ?
+
+OR
+
+Determines R2 ?
+
+↓
+
+YES
+
+Lossless
+
+↓
+
+NO
+
+Lossy
+```
+
+---
+
+# 10-Second Shortcut
+
+Always remember
+
+```
+Common Attribute
+
+↓
+
+Must become
+
+Key
+
+of
+
+At least one decomposed table.
+```
+
+If yes
+
+Lossless
+
+Else
+
+Lossy
+
+---
+
+# Problem 1
+
+Relation
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+A → B
+
+A → C
+```
+
+Decompose into
+
+```
+R1(A,B)
+
+R2(A,C)
+```
+
+---
+
+## Step 1
+
+Common Attribute
+
+```
+A
+```
+
+---
+
+## Step 2
+
+Can A determine R1?
+
+```
+A → B
+
+Yes
+
+A already contains A
+
+Therefore
+
+A determines
+
+(A,B)
+```
+
+Yes.
+
+---
+
+## Final Answer
+
+Lossless
+
+---
+
+# Problem 2
+
+Relation
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+A → B
+```
+
+Decompose
+
+```
+R1(A,C)
+
+R2(B,C)
+```
+
+---
+
+Common Attribute
+
+```
+C
+```
+
+Can C determine R1?
+
+No
+
+Can C determine R2?
+
+No
+
+---
+
+Answer
+
+Lossy
+
+---
+
+# Problem 3
+
+Relation
+
+```
+R(A,B,C,D)
+```
+
+FD
+
+```
+A → B
+
+A → C
+
+A → D
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(A,C,D)
+```
+
+---
+
+Common Attribute
+
+```
+A
+```
+
+Can A determine R1?
+
+Yes
+
+Hence
+
+Lossless
+
+---
+
+# Problem 4
+
+Relation
+
+```
+R(Student,Course)
+```
+
+Split
+
+```
+Student
+
+Course
+```
+
+---
+
+Common Attribute
+
+None
+
+Immediately
+
+Lossy
+
+---
+
+### Why?
+
+Join becomes
+
+Cartesian Product
+
+Every student combines with every course.
+
+Extra tuples appear.
+
+---
+
+# Problem 5
+
+Relation
+
+```
+Employee(EmpID,Name,Department)
+```
+
+FD
+
+```
+EmpID → Name
+
+EmpID → Department
+```
+
+Split
+
+```
+Employee(EmpID,Name)
+
+Department(EmpID,Department)
+```
+
+---
+
+Common Attribute
+
+EmpID
+
+EmpID determines both relations.
+
+Answer
+
+Lossless
+
+---
+
+# Problem 6
+
+Relation
+
+```
+R(A,B,C,D)
+```
+
+FD
+
+```
+AB → C
+
+AB → D
+```
+
+Split
+
+```
+R1(A,B,C)
+
+R2(A,B,D)
+```
+
+---
+
+Common Attribute
+
+```
+AB
+```
+
+AB determines R1
+
+Therefore
+
+Lossless
+
+---
+
+# Problem 7
+
+Relation
+
+```
+R(A,B,C,D)
+```
+
+FD
+
+```
+A → B
+```
+
+Split
+
+```
+R1(A,C)
+
+R2(B,D)
+```
+
+---
+
+Common Attribute
+
+None
+
+Answer
+
+Lossy
+
+---
+
+# Problem 8
+
+Relation
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+B → C
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(B,C)
+```
+
+---
+
+Common Attribute
+
+```
+B
+```
+
+Can B determine R2?
+
+Yes
+
+Because
+
+```
+B → C
+```
+
+So
+
+B determines
+
+(B,C)
+
+Answer
+
+Lossless
+
+---
+
+# Problem 9
+
+Relation
+
+```
+R(A,B,C,D)
+```
+
+FD
+
+```
+C → D
+```
+
+Split
+
+```
+R1(A,B,C)
+
+R2(C,D)
+```
+
+---
+
+Common Attribute
+
+```
+C
+```
+
+Can C determine R2?
+
+Yes
+
+Answer
+
+Lossless
+
+---
+
+# Problem 10
+
+Relation
+
+```
+R(A,B,C,D)
+```
+
+FD
+
+```
+A → B
+```
+
+Split
+
+```
+R1(A,C)
+
+R2(C,D)
+```
+
+---
+
+Common Attribute
+
+```
+C
+```
+
+Can C determine R1?
+
+No
+
+Can C determine R2?
+
+No
+
+Answer
+
+Lossy
+
+---
+
+# Problem 11
+
+Relation
+
+```
+R(A,B,C,D)
+```
+
+FD
+
+```
+A → B
+
+B → C
+
+C → D
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(B,C,D)
+```
+
+---
+
+Common Attribute
+
+```
+B
+```
+
+Can B determine R2?
+
+Yes
+
+```
+B → C
+
+C → D
+
+Therefore
+
+B → D
+```
+
+Hence
+
+B determines
+
+(B,C,D)
+
+Lossless
+
+---
+
+# Problem 12
+
+Relation
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+AB → C
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(B,C)
+```
+
+---
+
+Common Attribute
+
+```
+B
+```
+
+Does
+
+```
+B → C
+```
+
+No
+
+Need A also.
+
+Lossy
+
+---
+
+# Problem 13
+
+Relation
+
+```
+R(A,B,C,D)
+```
+
+FD
+
+```
+A → B
+
+C → D
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(C,D)
+```
+
+Common Attribute
+
+None
+
+Lossy
+
+---
+
+# Problem 14
+
+Relation
+
+```
+R(A,B,C,D)
+```
+
+FD
+
+```
+A → BC
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(A,C,D)
+```
+
+Common
+
+A
+
+Can A determine R1?
+
+Yes
+
+Lossless
+
+---
+
+# Problem 15
+
+Relation
+
+```
+R(A,B,C)
+```
+
+FD
+
+None
+
+Split
+
+```
+R1(A,B)
+
+R2(B,C)
+```
+
+---
+
+Common
+
+B
+
+But no FD.
+
+Cannot determine either relation.
+
+Lossy
+
+---
+
+# University Style Question
+
+Question
+
+```
+Given
+
+R(A,B,C,D)
+
+FD
+
+A→B
+
+B→C
+
+C→D
+
+Check whether
+
+R1(A,B)
+
+R2(B,C,D)
+
+is Lossless.
+```
+
+---
+
+Solution
+
+Common Attribute
+
+```
+B
+```
+
+Now
+
+```
+B→C
+
+C→D
+
+Therefore
+
+B→CD
+```
+
+Hence
+
+```
+B→BCD
+```
+
+Common attribute determines complete R2.
+
+Therefore
+
+Lossless.
+
+---
+
+# GATE Style Question
+
+Relation
+
+```
+R(A,B,C,D,E)
+```
+
+FD
+
+```
+A→B
+
+B→C
+
+C→D
+
+D→E
+```
+
+Split
+
+```
+R1(A,B,C)
+
+R2(C,D,E)
+```
+
+---
+
+Common
+
+```
+C
+```
+
+Can C determine R2?
+
+```
+C→D
+
+D→E
+
+Therefore
+
+C→DE
+```
+
+Hence
+
+```
+C→CDE
+```
+
+Lossless
+
+---
+
+# Another GATE Question
+
+Relation
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+A→B
+```
+
+Split
+
+```
+R1(A,C)
+
+R2(B,C)
+```
+
+Common
+
+```
+C
+```
+
+No FD from C.
+
+Lossy
+
+---
+
+# IBPS SO Pattern Question
+
+Employee
+
+```
+(EmpID,Name,Dept)
+```
+
+FD
+
+```
+EmpID→Name
+
+EmpID→Dept
+```
+
+Split
+
+```
+Employee(EmpID,Name)
+
+Department(EmpID,Dept)
+```
+
+Answer
+
+Lossless
+
+---
+
+# Interview Question 1
+
+Can Lossless Decomposition still have redundancy?
+
+Answer
+
+Yes.
+
+Lossless only guarantees
+
+"No information loss."
+
+It does not automatically remove all redundancy.
+
+---
+
+# Interview Question 2
+
+Can Lossy Decomposition produce extra tuples?
+
+Yes.
+
+These extra tuples are called
+
+**Spurious Tuples**
+
+---
+
+# Interview Question 3
+
+Which decomposition is always preferred?
+
+Lossless
+
+---
+
+# Interview Question 4
+
+Why is Lossy decomposition avoided?
+
+Because
+
+- Wrong data
+- Incorrect joins
+- Incorrect reports
+- Wrong query results
+
+---
+
+# Most Common Mistakes
+
+## Mistake 1
+
+Ignoring Common Attribute.
+
+Always find intersection first.
+
+---
+
+## Mistake 2
+
+Checking wrong FD.
+
+Only check whether
+
+Common Attribute
+
+determines
+
+Entire Relation.
+
+---
+
+## Mistake 3
+
+Thinking
+
+More tables
+
+means
+
+Better normalization.
+
+Wrong.
+
+---
+
+## Mistake 4
+
+Using Cartesian Product instead of Natural Join.
+
+Lossless always uses
+
+Natural Join.
+
+---
+
+## Mistake 5
+
+Not considering transitive dependencies.
+
+Example
+
+```
+B→C
+
+C→D
+
+Therefore
+
+B→D
+```
+
+Competitive exams often test this.
+
+---
+
+# Practice Questions (Without Solutions)
+
+---
+
+## Question 1
+
+```
+R(A,B,C)
+
+FD
+
+A→B
+
+Split
+
+R1(A,B)
+
+R2(A,C)
+```
+
+Lossless or Lossy?
+
+---
+
+## Question 2
+
+```
+R(A,B,C)
+
+FD
+
+A→B
+
+Split
+
+R1(A,C)
+
+R2(B,C)
+```
+
+---
+
+## Question 3
+
+```
+R(A,B,C,D)
+
+FD
+
+B→C
+
+Split
+
+R1(A,B)
+
+R2(B,C,D)
+```
+
+---
+
+## Question 4
+
+```
+R(A,B,C,D)
+
+FD
+
+AB→C
+
+Split
+
+R1(A,B,C)
+
+R2(B,D)
+```
+
+---
+
+## Question 5
+
+```
+R(A,B,C,D)
+
+FD
+
+A→BCD
+
+Split
+
+R1(A,B)
+
+R2(A,C,D)
+```
+
+---
+
+## Question 6
+
+```
+R(A,B,C)
+
+No FD
+
+Split
+
+R1(A,B)
+
+R2(B,C)
+```
+
+---
+
+## Question 7
+
+```
+R(A,B,C,D)
+
+FD
+
+C→D
+
+Split
+
+R1(A,B,C)
+
+R2(C,D)
+```
+
+---
+
+## Question 8
+
+```
+R(A,B,C,D)
+
+FD
+
+A→B
+
+B→C
+
+Split
+
+R1(A,B)
+
+R2(B,C)
+```
+
+---
+
+## Question 9
+
+```
+R(Student,Course)
+
+Split
+
+Student
+
+Course
+```
+
+---
+
+## Question 10
+
+```
+R(EmpID,Name,Dept)
+
+FD
+
+EmpID→Name
+
+EmpID→Dept
+
+Split
+
+(EmpID,Name)
+
+(EmpID,Dept)
+```
+
+---
+
+# Expected Answers
+
+|Question|Answer|
+|----------|------|
+|1|Lossless|
+|2|Lossy|
+|3|Lossy|
+|4|Lossy|
+|5|Lossless|
+|6|Lossy|
+|7|Lossless|
+|8|Lossless|
+|9|Lossy|
+|10|Lossless|
+
+---
+
+# Topper Revision Sheet
+
+## Always Follow This Algorithm
+
+```
+Find Common Attribute
+
+↓
+
+Apply Functional Dependency
+
+↓
+
+Can Common Attribute determine
+
+Entire R1
+
+OR
+
+Entire R2 ?
+
+↓
+
+YES
+
+Lossless
+
+↓
+
+NO
+
+Lossy
+```
+
+---
+
+# Golden Rules
+
+✅ Lossless decomposition preserves all information.
+
+✅ Lossy decomposition introduces spurious tuples or loses information.
+
+✅ If there is **no common attribute**, the decomposition is **always Lossy**.
+
+✅ If the **intersection is a key of at least one decomposed relation**, the decomposition is **Lossless**.
+
+✅ Natural Join is used to reconstruct the original relation.
+
+✅ Cartesian Product usually indicates a bad decomposition.
+
+---
+
+# Formula Sheet
+
+## Lossless Condition
+
+```
+(R1 ∩ R2) → R1
+
+OR
+
+(R1 ∩ R2) → R2
+```
+
+---
+
+## Shortcut
+
+```
+Intersection
+
+↓
+
+Key of one table
+
+↓
+
+Lossless
+```
+
+---
+
+## Red Flag
+
+```
+No Common Attribute
+
+↓
+
+Lossy
+```
+
+---
+# DBMS Notes
+# Lossy vs Lossless Decomposition (Part 4)
+## 75+ MCQs | PYQs | Interview Questions | Cheat Sheet | One-Liners | Revision Notes
+### Topper Notes | IBPS SO IT Officer | GATE | NIELIT | University | Placements
+
+---
+
+# Table of Contents
+
+1. Basic MCQs
+2. Intermediate MCQs
+3. Advanced MCQs
+4. Previous Year Pattern Questions
+5. Assertion & Reason Questions
+6. Fill in the Blanks
+7. One-Liners
+8. Interview Questions
+9. Cheat Sheet
+10. Complete Revision Sheet
+
+---
+
+# Section 1 : Basic MCQs
+
+## MCQ 1
+
+Decomposition means
+
+A. Combining tables
+
+B. Splitting relation into smaller relations
+
+C. Deleting tuples
+
+D. Creating indexes
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 2
+
+Which decomposition is preferred?
+
+A. Lossy
+
+B. Lossless
+
+C. Random
+
+D. Partial
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 3
+
+Lossless decomposition preserves
+
+A. Indexes
+
+B. Data only
+
+C. All information
+
+D. Keys only
+
+✅ Answer
+
+**C**
+
+---
+
+## MCQ 4
+
+Lossy decomposition may generate
+
+A. Candidate Keys
+
+B. Primary Keys
+
+C. Spurious Tuples
+
+D. Foreign Keys
+
+✅ Answer
+
+**C**
+
+---
+
+## MCQ 5
+
+Normalization aims to achieve
+
+A. Lossy decomposition
+
+B. Lossless decomposition
+
+C. Duplicate records
+
+D. Bigger tables
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 6
+
+Information loss occurs in
+
+A. BCNF
+
+B. Lossless
+
+C. Lossy
+
+D. Primary Key
+
+✅ Answer
+
+**C**
+
+---
+
+## MCQ 7
+
+Lossless decomposition is verified using
+
+A. Bubble Sort
+
+B. Functional Dependency
+
+C. Queue
+
+D. Stack
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 8
+
+Which join reconstructs the original relation?
+
+A. Cartesian Product
+
+B. Natural Join
+
+C. Left Join
+
+D. Right Join
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 9
+
+Which decomposition avoids spurious tuples?
+
+A. Lossy
+
+B. Lossless
+
+C. Random
+
+D. Partial
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 10
+
+A decomposition producing incorrect rows is
+
+A. Lossless
+
+B. Dependency Preserving
+
+C. Lossy
+
+D. Normalized
+
+✅ Answer
+
+**C**
+
+---
+
+# Section 2 : Intermediate MCQs
+
+## MCQ 11
+
+The condition for lossless decomposition is
+
+A.
+
+```
+R1 ∪ R2
+```
+
+B.
+
+```
+R1 − R2
+```
+
+C.
+
+```
+(R1 ∩ R2) → R1
+
+OR
+
+(R1 ∩ R2) → R2
+```
+
+D.
+
+None
+
+✅ Answer
+
+**C**
+
+---
+
+## MCQ 12
+
+Which attribute is checked first while solving decomposition problems?
+
+A. Candidate Key
+
+B. Primary Key
+
+C. Common Attribute
+
+D. Foreign Key
+
+✅ Answer
+
+**C**
+
+---
+
+## MCQ 13
+
+A decomposition without any common attribute is generally
+
+A. Lossless
+
+B. Lossy
+
+C. BCNF
+
+D. 3NF
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 14
+
+Spurious tuples appear due to
+
+A. Good normalization
+
+B. Lossy decomposition
+
+C. Candidate Key
+
+D. Foreign Key
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 15
+
+Functional Dependency is written as
+
+A.
+
+```
+A=B
+```
+
+B.
+
+```
+A↔B
+```
+
+C.
+
+```
+A→B
+```
+
+D.
+
+```
+A+B
+```
+
+✅ Answer
+
+**C**
+
+---
+
+## MCQ 16
+
+A Candidate Key is
+
+A. Largest Super Key
+
+B. Minimum Super Key
+
+C. Any Attribute
+
+D. Composite Key
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 17
+
+Which key may contain extra attributes?
+
+A. Candidate Key
+
+B. Primary Key
+
+C. Super Key
+
+D. Foreign Key
+
+✅ Answer
+
+**C**
+
+---
+
+## MCQ 18
+
+Which key is selected from Candidate Keys?
+
+A. Foreign Key
+
+B. Composite Key
+
+C. Primary Key
+
+D. Alternate Key
+
+✅ Answer
+
+**C**
+
+---
+
+## MCQ 19
+
+Which decomposition gives the exact original table after joining?
+
+A. Lossless
+
+B. Lossy
+
+C. Random
+
+D. Weak
+
+✅ Answer
+
+**A**
+
+---
+
+## MCQ 20
+
+Extra tuples generated after join are called
+
+A. Prime Tuples
+
+B. Candidate Tuples
+
+C. Spurious Tuples
+
+D. Composite Tuples
+
+✅ Answer
+
+**C**
+
+---
+
+# Section 3 : Advanced MCQs
+
+## MCQ 21
+
+Given
+
+```
+R(A,B,C)
+
+FD
+
+A→B
+
+A→C
+```
+
+Decomposition
+
+```
+(A,B)
+
+(A,C)
+```
+
+Answer
+
+A. Lossless
+
+B. Lossy
+
+C. Cannot Determine
+
+D. None
+
+✅ Answer
+
+**A**
+
+---
+
+## MCQ 22
+
+Given
+
+```
+R(A,B,C)
+
+FD
+
+A→B
+```
+
+Split
+
+```
+(A,C)
+
+(B,C)
+```
+
+Answer
+
+A. Lossless
+
+B. Lossy
+
+C. BCNF
+
+D. 3NF
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 23
+
+```
+R(A,B,C,D)
+
+FD
+
+B→C
+```
+
+Split
+
+```
+(A,B)
+
+(B,C,D)
+```
+
+Answer
+
+A. Lossless
+
+B. Lossy
+
+C. BCNF
+
+D. None
+
+✅ Answer
+
+**A**
+
+---
+
+## MCQ 24
+
+If the common attribute is a key for one relation, decomposition is
+
+A. Lossy
+
+B. Lossless
+
+C. Random
+
+D. Impossible
+
+✅ Answer
+
+**B**
+
+---
+
+## MCQ 25
+
+Lossless decomposition guarantees
+
+A. More tables
+
+B. Exact reconstruction
+
+C. Smaller memory
+
+D. Faster CPU
+
+✅ Answer
+
+**B**
+
+---
+
+# Section 4 : Previous Year Pattern Questions
+
+## PYQ 1
+
+Which of the following is NOT true?
+
+A. Lossless preserves information
+
+B. Lossy may generate spurious tuples
+
+C. Lossless produces extra tuples
+
+D. Functional Dependency helps verify decomposition
+
+✅ Answer
+
+**C**
+
+---
+
+## PYQ 2
+
+Normalization aims to
+
+A. Increase redundancy
+
+B. Remove redundancy
+
+C. Increase anomalies
+
+D. Increase duplication
+
+✅ Answer
+
+**B**
+
+---
+
+## PYQ 3
+
+The Chase Test is used for
+
+A. Sorting
+
+B. Searching
+
+C. Verifying Lossless Decomposition
+
+D. Encryption
+
+✅ Answer
+
+**C**
+
+---
+
+## PYQ 4
+
+Natural Join is used to
+
+A. Delete tuples
+
+B. Recover relation
+
+C. Insert tuples
+
+D. Create indexes
+
+✅ Answer
+
+**B**
+
+---
+
+## PYQ 5
+
+Which is undesirable?
+
+A. Candidate Key
+
+B. Functional Dependency
+
+C. Lossy Decomposition
+
+D. BCNF
+
+✅ Answer
+
+**C**
+
+---
+
+# Section 5 : Assertion & Reason
+
+## Question 1
+
+Assertion
+
+Lossless decomposition preserves information.
+
+Reason
+
+Joining decomposed tables reconstructs the original relation exactly.
+
+A. Both True, Reason explains Assertion
+
+B. Both True, Reason incorrect
+
+C. Assertion True, Reason False
+
+D. Both False
+
+✅ Answer
+
+**A**
+
+---
+
+## Question 2
+
+Assertion
+
+Lossy decomposition is preferred.
+
+Reason
+
+It removes all redundancy.
+
+✅ Answer
+
+**D**
+
+---
+
+## Question 3
+
+Assertion
+
+Spurious tuples occur in Lossy decomposition.
+
+Reason
+
+Incorrect joins create extra tuples.
+
+✅ Answer
+
+**A**
+
+---
+
+## Question 4
+
+Assertion
+
+Functional Dependencies help determine lossless decomposition.
+
+Reason
+
+They identify relationships among attributes.
+
+✅ Answer
+
+**A**
+
+---
+
+## Question 5
+
+Assertion
+
+Natural Join is used to reconstruct decomposed relations.
+
+Reason
+
+Cartesian Product always gives the original relation.
+
+✅ Answer
+
+**C**
+
+---
+
+# Section 6 : Fill in the Blanks
+
+1.
+
+Lossless decomposition causes **__________** information loss.
+
+✅ No
+
+---
+
+2.
+
+Lossy decomposition creates **__________ tuples**.
+
+✅ Spurious
+
+---
+
+3.
+
+A Functional Dependency is represented by **__________**.
+
+✅ →
+
+---
+
+4.
+
+The minimum Super Key is called **__________**.
+
+✅ Candidate Key
+
+---
+
+5.
+
+Normalization aims for **__________ decomposition**.
+
+✅ Lossless
+
+---
+
+6.
+
+The common attribute should determine at least **__________ relation**.
+
+✅ One
+
+---
+
+7.
+
+The Chase Test verifies **__________ decomposition**.
+
+✅ Lossless
+
+---
+
+8.
+
+Natural Join reconstructs the **__________ relation**.
+
+✅ Original
+
+---
+
+9.
+
+Extra rows generated after joining are called **__________ tuples**.
+
+✅ Spurious
+
+---
+
+10.
+
+No common attribute generally leads to **__________ decomposition**.
+
+✅ Lossy
+
+---
+
+# Section 7 : One-Liners
+
+- Decomposition divides one relation into smaller relations.
+- Lossless decomposition preserves all information.
+- Lossy decomposition loses information or creates spurious tuples.
+- Functional Dependencies determine relationships among attributes.
+- Candidate Key is the minimum Super Key.
+- Primary Key is a chosen Candidate Key.
+- Super Key may contain unnecessary attributes.
+- Natural Join reconstructs decomposed relations.
+- Cartesian Product usually indicates a bad decomposition.
+- Normalization prefers Lossless decomposition.
+
+---
+
+# Section 8 : Frequently Asked Interview Questions
+
+## Q1. What is decomposition?
+
+Breaking a relation into smaller relations to reduce redundancy while preserving information.
+
+---
+
+## Q2. Difference between Lossless and Lossy decomposition?
+
+|Lossless|Lossy|
+|---------|------|
+|No information loss|Information lost|
+|No spurious tuples|Spurious tuples appear|
+|Preferred|Avoided|
+
+---
+
+## Q3. What are spurious tuples?
+
+Extra tuples generated after joining incorrectly decomposed relations.
+
+---
+
+## Q4. Why is Lossless decomposition important?
+
+Because it guarantees correct reconstruction of the original relation.
+
+---
+
+## Q5. What is the role of Functional Dependency?
+
+It helps determine whether a decomposition is Lossless or Lossy.
+
+---
+
+## Q6. What is the Chase Test?
+
+A systematic algorithm to verify Lossless decomposition.
+
+---
+
+## Q7. Which join is used after decomposition?
+
+Natural Join.
+
+---
+
+## Q8. Can Lossless decomposition still have redundancy?
+
+Yes. Lossless only ensures no information loss; redundancy may still exist until proper normalization.
+
+---
+
+## Q9. Is every normalized table automatically Lossless?
+
+Good normalization algorithms aim to ensure Lossless decomposition.
+
+---
+
+## Q10. What is the biggest shortcut for exams?
+
+Check whether the **common attribute is a key of at least one decomposed relation**.
+
+---
+
+# Section 9 : Ultimate Cheat Sheet
+
+## Formula
+
+```
+Lossless
+
+(R1 ∩ R2) → R1
+
+OR
+
+(R1 ∩ R2) → R2
+```
+
+---
+
+## 5-Step Shortcut
+
+```
+Find Common Attribute
+
+↓
+
+Find FD
+
+↓
+
+Common Attribute
+
+↓
+
+Key of one table?
+
+↓
+
+YES
+
+Lossless
+
+↓
+
+NO
+
+Lossy
+```
+
+---
+
+## Memory Trick
+
+```
+LossLESS
+
+LESS Loss
+
+No Information Lost
+```
+
+---
+
+```
+LossY
+
+WHY?
+
+Why is information missing?
+```
+
+---
+
+## Red Flags
+
+🚨 No common attribute
+
+→ Lossy
+
+---
+
+🚨 Extra tuples after join
+
+→ Lossy
+
+---
+
+🚨 Exact original relation recovered
+
+→ Lossless
+
+---
+
+# Section 10 : Complete Topic Summary
+
+## Lossless Decomposition
+
+✔ No information loss
+
+✔ Original relation recovered
+
+✔ No spurious tuples
+
+✔ Preferred in normalization
+
+✔ Correct query results
+
+✔ Verified using Functional Dependencies
+
+✔ Natural Join reconstructs original relation
+
+---
+
+## Lossy Decomposition
+
+✘ Information loss
+
+✘ Incorrect reconstruction
+
+✘ Spurious tuples
+
+✘ Incorrect query results
+
+✘ Avoided in database design
+
+---
+
+# 10 Golden Rules (Must Remember)
+
+1. Decomposition means splitting a relation into smaller relations.
+
+2. Lossless decomposition preserves all information.
+
+3. Lossy decomposition loses information or creates spurious tuples.
+
+4. Normalization always aims for Lossless decomposition.
+
+5. Functional Dependencies are essential for checking decomposition.
+
+6. Check the **common attribute (intersection)** first.
+
+7. If the common attribute determines **one complete relation**, the decomposition is Lossless.
+
+8. No common attribute generally means Lossy decomposition.
+
+9. Natural Join is used to reconstruct the original relation.
+
+10. The Chase Test is the standard algorithm to verify Lossless decomposition.
+
+---
+
+# Last-Minute Revision (30 Seconds Before Exam)
+
+✅ Decomposition = Divide table.
+
+✅ Lossless = Join returns the **exact** original table.
+
+✅ Lossy = Join creates **extra or missing** rows.
+
+✅ Spurious Tuples = Fake rows created after join.
+
+✅ Candidate Key = Minimum Super Key.
+
+✅ Super Key = Unique identifier (may have extra attributes).
+
+✅ Functional Dependency = `A → B`.
+
+✅ Lossless Formula:
+
+```
+(R1 ∩ R2) → R1
+
+OR
+
+(R1 ∩ R2) → R2
+```
+
+✅ No Common Attribute = Usually Lossy.
+
+✅ Common Attribute is a Key = Lossless.
+
+---
+
