@@ -72,4 +72,14 @@ LINK - https://www.geeksforgeeks.org/dbms/concurrency-problems-in-dbms-transacti
 
 # Read Write Problem
 
+#### Here , Read and Write Occurs at same time
+
 #### Eg - Mai IRCTC se train ki availaibilty check kar ra hu aur same time pe koi aur train ticket book kar raha hai
+
+#### This is okay for IRCTC but lets suppose,
+
+# LINK - https://www.tutorialspoint.com/dbms/dbms_dirty_read_problem.htm
+
+
+
+
