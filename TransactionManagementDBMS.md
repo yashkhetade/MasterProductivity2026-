@@ -66,4 +66,7 @@ Eg - sbi website (while using sbi website we dont check how many people are usin
 
 # Modern day Applications are working on Parallel Schedules
 
+# Concurrency problems in DBMS Transactions
+
+LINK - https://www.geeksforgeeks.org/dbms/concurrency-problems-in-dbms-transactions/
 
