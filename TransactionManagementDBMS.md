@@ -70,3 +70,6 @@ Eg - sbi website (while using sbi website we dont check how many people are usin
 
 LINK - https://www.geeksforgeeks.org/dbms/concurrency-problems-in-dbms-transactions/
 
+# Read Write Problem
+
+#### Eg - Mai IRCTC se train ki availaibilty check kar ra hu aur same time pe koi aur train ticket book kar raha hai
