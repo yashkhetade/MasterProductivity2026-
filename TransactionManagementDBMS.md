@@ -37,10 +37,18 @@ LINK - https://www.geeksforgeeks.org/dbms/types-of-schedules-in-dbms/
 a) Serial b) Parallel
 
 ## a) Serial  Schedule
+
 It is used to acheive data consistency
+
 Here Transactions will  be completed one by one following a sequence
+
 lets say we have 4 transactions t1,t2,t3,t4 
 
 first t1 will execute completely then t2 ....t4 
+
+Eg- ATM Machine ( At a time only one person can withdraw money from one ATM )
+
+
+
 
 
