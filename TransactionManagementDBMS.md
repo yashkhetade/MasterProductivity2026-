@@ -80,6 +80,7 @@ LINK - https://www.geeksforgeeks.org/dbms/concurrency-problems-in-dbms-transacti
 
 LINK - https://www.tutorialspoint.com/dbms/dbms_dirty_read_problem.htm
 
+## recoverability in DBMS
 
-
+LINK - https://www.tutorialspoint.com/article/explain-the-concept-of-recoverability-in-dbms
 
