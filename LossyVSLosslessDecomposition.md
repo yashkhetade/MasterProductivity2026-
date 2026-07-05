@@ -1,6 +1,6 @@
 # DBMS Notes
-# Lossy vs Lossless Decomposition (Part 1)
-## Topper Notes | Simplest Language | IBPS SO IT Officer | GATE | University | Placement
+# Lossy vs Lossless Decomposition 
+
 
 ---
 
@@ -926,17 +926,1119 @@ A table may have redundancy, but decomposition is considered successful only if 
 
 ---
 
-# What's Next (Part 2)
+# DBMS Notes
+# Lossy vs Lossless Decomposition (Part 2)
+## Functional Dependency • Keys • Lossless Conditions • Chase Test • Exam Tricks
+### Topper Notes | Simplest Language | IBPS SO IT Officer | GATE | University
 
-In Part 2, we will cover:
+---
 
-- Functional Dependency (revision)
-- Candidate Key
-- Super Key
-- Why keys matter in decomposition
-- Conditions for Lossless Decomposition
-- Mathematical test for Lossless Decomposition
-- Common shortcut rules
-- Chase Test (step-by-step)
-- Exam tricks to identify Lossless vs Lossy in under 30 seconds
-- University, GATE, and IBPS SO style solved examples
+# Table of Contents
+
+1. Quick Revision
+2. Functional Dependency (FD)
+3. Why FD is Important in Decomposition
+4. Super Key
+5. Candidate Key
+6. Primary Key
+7. Prime vs Non-Prime Attribute
+8. Why Keys Decide Lossless or Lossy
+9. Condition for Lossless Decomposition
+10. Shortcut Rule
+11. Mathematical Rule
+12. How to Identify Lossless in 30 Seconds
+13. Chase Test (Step by Step)
+14. Solved Examples
+15. Exam Tricks
+16. Common Mistakes
+17. Revision Sheet
+
+---
+
+# Quick Revision
+
+Part 1 taught us:
+
+- Decomposition means breaking a large table into smaller tables.
+- Lossless means no information is lost.
+- Lossy means information is lost or extra tuples (spurious tuples) appear.
+
+Now the biggest question is:
+
+> **How do we know whether a decomposition is lossless or lossy?**
+
+For that, we need **Functional Dependency (FD)** and **Keys**.
+
+---
+
+# Functional Dependency (FD)
+
+## Simple Definition
+
+A Functional Dependency tells us:
+
+> One attribute uniquely determines another attribute.
+
+Notation:
+
+```
+A → B
+```
+
+Read as:
+
+```
+A determines B
+```
+
+or
+
+```
+Knowing A, we can always find B.
+```
+
+---
+
+## Example 1
+
+Student Table
+
+| Roll | Name |
+|------|------|
+|101|Rahul|
+|102|Amit|
+|103|Priya|
+
+Every Roll Number belongs to exactly one student.
+
+So,
+
+```
+Roll → Name
+```
+
+Correct.
+
+---
+
+## Example 2
+
+Employee Table
+
+|EmpID|Department|
+|-----|----------|
+|1|IT|
+|2|HR|
+
+```
+EmpID → Department
+```
+
+Correct.
+
+---
+
+## Wrong Functional Dependency
+
+Can we say
+
+```
+Department → EmpID
+```
+
+No.
+
+Why?
+
+IT department has many employees.
+
+One department cannot determine exactly one employee.
+
+So this FD is incorrect.
+
+---
+
+# Easy Trick
+
+Ask yourself:
+
+> If I know the value on the left, can I always predict exactly one value on the right?
+
+If YES
+
+It is a Functional Dependency.
+
+---
+
+# Why Functional Dependency Matters
+
+Lossless decomposition depends on Functional Dependencies.
+
+Without FD,
+
+you cannot determine whether decomposition is good or bad.
+
+Think of FD as the **rules of the database**.
+
+---
+
+# Super Key
+
+## Definition
+
+A Super Key is any set of attributes that uniquely identifies every row.
+
+It may contain extra attributes.
+
+---
+
+Example
+
+Student
+
+|Roll|Name|Phone|
+
+```
+Roll
+```
+
+uniquely identifies every student.
+
+So,
+
+```
+Roll
+```
+
+is a Super Key.
+
+But
+
+```
+Roll + Name
+```
+
+also uniquely identifies every student.
+
+Still a Super Key.
+
+```
+Roll + Name + Phone
+```
+
+also works.
+
+Still a Super Key.
+
+---
+
+# Memory Trick
+
+Super Key
+
+```
+Unique
++
+
+May contain extra attributes
+```
+
+---
+
+# Candidate Key
+
+Candidate Key means
+
+> Minimum Super Key.
+
+No unnecessary attributes.
+
+---
+
+Example
+
+```
+Roll
+```
+
+is enough.
+
+So
+
+Candidate Key = Roll
+
+But
+
+```
+Roll + Name
+```
+
+contains an extra attribute.
+
+So
+
+NOT Candidate Key.
+
+---
+
+# Memory Trick
+
+Candidate Key
+
+```
+Unique
+
+AND
+
+Minimum
+```
+
+---
+
+# Primary Key
+
+One Candidate Key selected by the database designer becomes
+
+Primary Key.
+
+---
+
+Example
+
+Candidate Keys
+
+```
+Email
+
+EmployeeID
+```
+
+Suppose database chooses EmployeeID.
+
+Then
+
+Primary Key = EmployeeID
+
+---
+
+# Prime Attribute
+
+Attribute that belongs to at least one Candidate Key.
+
+---
+
+Example
+
+Candidate Key
+
+```
+Roll
+```
+
+Prime Attribute
+
+```
+Roll
+```
+
+---
+
+# Non-Prime Attribute
+
+Attribute not present in any Candidate Key.
+
+Example
+
+```
+Roll
+
+Name
+
+Department
+```
+
+Candidate Key
+
+Roll
+
+Prime
+
+Roll
+
+Non-prime
+
+Name
+
+Department
+
+---
+
+# Why Keys Matter?
+
+Suppose
+
+Original Relation
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+A → B
+```
+
+Decompose
+
+```
+R1(A,B)
+
+R2(A,C)
+```
+
+Notice
+
+Common Attribute
+
+```
+A
+```
+
+A determines B.
+
+A is a key in R1.
+
+Therefore
+
+Lossless.
+
+---
+
+# Biggest Rule of Lossless Decomposition
+
+Suppose
+
+```
+R
+
+↓
+
+R1
+
+R2
+```
+
+Common attributes are
+
+```
+R1 ∩ R2
+```
+
+If the common attribute can determine all attributes of at least one table,
+
+then decomposition is
+
+**Lossless**
+
+---
+
+# Mathematical Rule
+
+For decomposition
+
+```
+R → R1,R2
+```
+
+Lossless if
+
+```
+(R1 ∩ R2) → R1
+
+OR
+
+(R1 ∩ R2) → R2
+```
+
+This is the most important formula.
+
+Memorize it.
+
+---
+
+# Simple Language Version
+
+Look at the common column.
+
+Ask
+
+Can this common column identify one complete table?
+
+If YES
+
+Lossless.
+
+If NO
+
+Lossy.
+
+---
+
+# Shortcut Rule
+
+Suppose
+
+```
+Student(Roll,Name,Department)
+```
+
+Split
+
+```
+StudentInfo(Roll,Name)
+
+DepartmentInfo(Roll,Department)
+```
+
+Common Attribute
+
+```
+Roll
+```
+
+Roll identifies StudentInfo completely.
+
+Hence
+
+Lossless.
+
+---
+
+# Another Example
+
+Original
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+A → B
+
+A → C
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(A,C)
+```
+
+Common
+
+```
+A
+```
+
+A identifies R1
+
+A identifies R2
+
+Therefore
+
+Lossless.
+
+---
+
+# Counter Example
+
+Original
+
+```
+R(A,B,C)
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(B,C)
+```
+
+FD
+
+```
+A → B
+```
+
+Common Attribute
+
+```
+B
+```
+
+Can B identify R1?
+
+No.
+
+Can B identify R2?
+
+No.
+
+Therefore
+
+Lossy.
+
+---
+
+# 30-Second Identification Trick
+
+STEP 1
+
+Find common attributes.
+
+STEP 2
+
+Check Functional Dependency.
+
+STEP 3
+
+Ask
+
+Can common attribute determine all columns of one table?
+
+YES
+
+Lossless
+
+NO
+
+Lossy
+
+---
+
+# Visual Trick
+
+```
+      R1
+
+A B
+
+      ∩
+
+A
+
+      ∩
+
+A C
+
+      R2
+```
+
+Common Attribute
+
+A
+
+A determines R1
+
+Lossless
+
+---
+
+# Chase Test
+
+One of the favorite GATE questions.
+
+Don't worry.
+
+Let's learn from scratch.
+
+---
+
+# What is Chase Test?
+
+A systematic method to verify whether decomposition is
+
+Lossless
+
+or
+
+Lossy.
+
+---
+
+# When to Use Chase Test?
+
+Use when
+
+- Multiple Functional Dependencies
+- Confusing decomposition
+- Competitive exams
+- GATE
+- University theory papers
+
+---
+
+# Chase Test Steps
+
+Suppose
+
+```
+R(A,B,C)
+```
+
+Decompose
+
+```
+R1(A,B)
+
+R2(A,C)
+```
+
+FD
+
+```
+A → B
+
+A → C
+```
+
+---
+
+## Step 1
+
+Create table
+
+|Relation|A|B|C|
+|---------|--|--|--|
+|R1|a1|b1|c2|
+|R2|a1|b2|c1|
+
+Same attributes
+
+same symbols
+
+Missing attributes
+
+different symbols
+
+---
+
+## Step 2
+
+Apply Functional Dependencies.
+
+FD
+
+```
+A → B
+```
+
+Since A is same
+
+Make B same.
+
+---
+
+FD
+
+```
+A → C
+```
+
+Make C same.
+
+---
+
+Result
+
+Everything becomes identical.
+
+Hence
+
+Lossless.
+
+---
+
+# Easy Way to Remember Chase Test
+
+```
+Same Left Side
+
+↓
+
+Make Right Side Same
+```
+
+Repeat until
+
+No further change.
+
+---
+
+If one complete row becomes identical
+
+Lossless.
+
+Otherwise
+
+Lossy.
+
+---
+
+# Solved Example 1
+
+Relation
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+A → B
+
+B → C
+```
+
+Split
+
+```
+R1(A,B)
+
+R2(B,C)
+```
+
+Common
+
+```
+B
+```
+
+Can
+
+```
+B → R1 ?
+```
+
+No.
+
+Need A also.
+
+Can
+
+```
+B → R2 ?
+```
+
+Yes
+
+Because
+
+```
+B → C
+```
+
+So B determines
+
+(B,C)
+
+Hence
+
+Lossless.
+
+---
+
+# Solved Example 2
+
+```
+R(A,B,C)
+```
+
+FD
+
+```
+A → B
+```
+
+Split
+
+```
+R1(A,C)
+
+R2(B,C)
+```
+
+Common
+
+```
+C
+```
+
+Can C determine R1?
+
+No.
+
+Can C determine R2?
+
+No.
+
+Lossy.
+
+---
+
+# Solved Example 3
+
+Relation
+
+```
+Employee(EmpID,Name,Department)
+```
+
+FD
+
+```
+EmpID → Name
+
+EmpID → Department
+```
+
+Split
+
+Employee
+
+```
+(EmpID,Name)
+```
+
+Department
+
+```
+(EmpID,Department)
+```
+
+Common
+
+EmpID
+
+EmpID determines both tables.
+
+Lossless.
+
+---
+
+# Solved Example 4
+
+Original
+
+```
+(Student,Course)
+```
+
+Split
+
+```
+Student
+
+Course
+```
+
+Common Attribute
+
+None.
+
+Immediately
+
+Lossy.
+
+---
+
+# Super Shortcut
+
+No Common Attribute
+
+↓
+
+Always Lossy
+
+because natural join becomes Cartesian Product.
+
+This is a favorite MCQ.
+
+---
+
+# Important Exam Tricks
+
+## Trick 1
+
+Common Attribute is Candidate Key
+
+↓
+
+Always Lossless
+
+---
+
+## Trick 2
+
+No Common Attribute
+
+↓
+
+Lossy
+
+---
+
+## Trick 3
+
+Intersection should determine one complete relation.
+
+---
+
+## Trick 4
+
+Extra tuples after Join
+
+↓
+
+Lossy
+
+---
+
+## Trick 5
+
+Exact original relation after Join
+
+↓
+
+Lossless
+
+---
+
+# Common Mistakes
+
+❌ Thinking every decomposition is good.
+
+Wrong.
+
+Only Lossless decomposition is desirable.
+
+---
+
+❌ Looking only at number of tables.
+
+Wrong.
+
+Need Functional Dependency.
+
+---
+
+❌ Ignoring common attributes.
+
+Intersection is the first thing to check.
+
+---
+
+❌ Confusing Candidate Key with Super Key.
+
+Candidate Key
+
+=
+
+Minimum Super Key.
+
+---
+
+# Memory Hacks
+
+## FD
+
+```
+Left Side
+
+knows
+
+Right Side
+```
+
+---
+
+## Candidate Key
+
+```
+Minimum
+
+Unique
+```
+
+---
+
+## Super Key
+
+```
+Unique
+
+May contain extras
+```
+
+---
+
+## Lossless Formula
+
+```
+Common Attribute
+
+↓
+
+Must determine one complete table.
+```
+
+---
+
+# Golden Formula (Most Important)
+
+For
+
+```
+R → R1,R2
+```
+
+Lossless iff
+
+```
+(R1 ∩ R2) → R1
+
+OR
+
+(R1 ∩ R2) → R2
+```
+
+Remember this formula for **IBPS SO**, **GATE**, **University exams**, and **interviews**.
+
+---
+
+# Quick Revision Sheet
+
+✅ Functional Dependency means one attribute determines another.
+
+✅ Super Key uniquely identifies tuples.
+
+✅ Candidate Key is the minimum Super Key.
+
+✅ Primary Key is a selected Candidate Key.
+
+✅ Lossless decomposition requires the common attributes to determine at least one decomposed relation completely.
+
+✅ If there is **no common attribute**, the decomposition is generally **Lossy**.
+
+✅ Chase Test is a systematic method to verify lossless decomposition.
+
+---
+
