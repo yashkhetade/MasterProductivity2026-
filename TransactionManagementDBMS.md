@@ -59,4 +59,6 @@ Here Transactions will  be completing parallely
 
 Eg - sbi website (while using sbi website we dont check how many people are using sbi website we simply use it )
 
+# Throughput - No of transactions executed per unit time
+High Throughput  means High Performance
 
