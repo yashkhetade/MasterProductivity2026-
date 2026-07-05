@@ -28,3 +28,8 @@ Transaction: When a user performs a money transfer, several operations occur, su
 
 # Transaction States 
 LINK - https://www.geeksforgeeks.org/dbms/transaction-states-in-dbms/
+
+
+# Schedule 
+LINK - https://www.geeksforgeeks.org/dbms/types-of-schedules-in-dbms/
+
