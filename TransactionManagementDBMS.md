@@ -53,7 +53,7 @@ Waiting time is too much
 
 So we use  b)Parallel Schedule -
 
-## b)Parallel Schedule
+## b) Parallel Schedule
 
 Here Transactions will  be completing parallely
 
