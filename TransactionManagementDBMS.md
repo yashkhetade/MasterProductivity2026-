@@ -78,7 +78,7 @@ LINK - https://www.geeksforgeeks.org/dbms/concurrency-problems-in-dbms-transacti
 
 #### This is okay for IRCTC but lets suppose,
 
-# LINK - https://www.tutorialspoint.com/dbms/dbms_dirty_read_problem.htm
+LINK - https://www.tutorialspoint.com/dbms/dbms_dirty_read_problem.htm
 
 
 
