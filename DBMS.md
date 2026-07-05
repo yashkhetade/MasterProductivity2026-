@@ -109,3 +109,5 @@ LINK - https://www.geeksforgeeks.org/sql/order-of-execution-of-sql-queries/
 
 # Normal Forms in DBMS
 LINK - https://www.geeksforgeeks.org/dbms/normal-forms-in-dbms/
+
+# Every table having 2 attributes will  always be in BCNF
