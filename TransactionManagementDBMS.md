@@ -89,3 +89,6 @@ LINK - https://www.tutorialspoint.com/article/explain-the-concept-of-recoverabil
 ## To check whether a schedule is recoverable or not ?
 
 
+#  different types of recoverability of schedules(DBMS)
+
+LINK - https://www.tutorialspoint.com/article/what-are-different-types-of-recoverability-of-schedules-dbms
