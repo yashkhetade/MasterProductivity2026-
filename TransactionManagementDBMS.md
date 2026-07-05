@@ -1,5 +1,7 @@
 # TransactionManagementDBMS
 
+
+
 #### transaction refers to a sequence of one or more operations (such as read, write, update, or delete) performed on the database as a single logical unit of work.
 
 Transaction: When a user performs a money transfer, several operations occur, such as:
@@ -11,6 +13,7 @@ Transaction: When a user performs a money transfer, several operations occur, su
 #### 3)Writing the added amount to the recipient’s account.
 
 
+# The primary aim of transaction management in a Database Management System (DBMS) is to ensure data integrity, reliability, and consistency. It achieves this by guaranteeing that all database operations are executed as a single, logical unit of work, particularly in multi-user environments or during system failures.Transaction management systems achieve these goals by strictly enforcing the ACID properties:
 
 #  ACID Properties of Transaction
 #### Transactions in DBMS must ensure data is accurate and reliable. They follow four key ACID properties:
@@ -22,3 +25,5 @@ Transaction: When a user performs a money transfer, several operations occur, su
 #### 3) Isolation: Transactions run independently. One transaction’s operations should not affect another’s intermediate steps. Example: Two users withdrawing from the same account must not interfere with each other’s balance updates.
 
 #### 4) Durability: Once a transaction is committed, its changes stay even if the system crashes. Example: After a successful transfer, the updated balance remains safe despite a power failure.
+
+
