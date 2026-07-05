@@ -84,3 +84,8 @@ LINK - https://www.tutorialspoint.com/dbms/dbms_dirty_read_problem.htm
 
 LINK - https://www.tutorialspoint.com/article/explain-the-concept-of-recoverability-in-dbms
 
+# A schedule has multiple transactions 
+
+## To check whether a schedule is recoverable or not ?
+
+
