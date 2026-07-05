@@ -107,3 +107,5 @@ LINK - https://www.geeksforgeeks.org/sql/order-of-execution-of-sql-queries/
 
 # Functional Dependencies
 
+# Normal Forms in DBMS
+LINK - https://www.geeksforgeeks.org/dbms/normal-forms-in-dbms/
