@@ -4,10 +4,10 @@
 
 Transaction: When a user performs a money transfer, several operations occur, such as:
 
-#### Reading the account balance of the sender.
+#### 1)Reading the account balance of the sender.
 
-#### Writing the deducted amount from the sender’s account.
+#### 2)Writing the deducted amount from the sender’s account.
 
-#### Writing the added amount to the recipient’s account.
+#### 3)Writing the added amount to the recipient’s account.
 
 
