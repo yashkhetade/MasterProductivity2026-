@@ -111,3 +111,6 @@ LINK - https://www.geeksforgeeks.org/sql/order-of-execution-of-sql-queries/
 LINK - https://www.geeksforgeeks.org/dbms/normal-forms-in-dbms/
 
 # Every table having 2 attributes will  always be in BCNF
+
+# Lossy vs Lossless
+LINK -https://www.gatevidyalay.com/decomposition-of-a-relation/
