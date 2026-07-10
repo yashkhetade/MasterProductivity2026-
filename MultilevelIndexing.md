@@ -4,3 +4,7 @@
 # Used when a single-level index becomes too large.
 
 # EG - Bhai 500 Pages Ka agar index hoga to kya tu read karega wo book  ?
+
+# What is a B-Tree?
+
+LINK - https://workat.tech/core-cs/tutorial/b-tree-and-b-plus-trees-in-dbms-gzzjplg15e4q/index.html
