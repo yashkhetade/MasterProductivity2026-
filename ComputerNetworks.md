@@ -211,3 +211,161 @@ so for class B it is 255.255.0.0
 class C it is 255.255.255.0
 
 
+# Convert Ip to Binary or decimal write powers of 2 
+
+
+````md id="lt8e4p"
+# Powers of Two (2ⁿ)
+
+| Power | Value | Common Use |
+|------:|------:|------------|
+| 2⁰ | 1 | Single value |
+| 2¹ | 2 | Binary digits |
+| 2² | 4 | 2-bit combinations |
+| 2³ | 8 | 3-bit combinations |
+| 2⁴ | 16 | Hexadecimal digit values |
+| 2⁵ | 32 | IPv4 address bits |
+| 2⁶ | 64 | Network sizes |
+| 2⁷ | 128 | Highest bit in an IPv4 octet |
+| 2⁸ | 256 | Values in one octet (0–255) |
+| 2⁹ | 512 | Memory |
+| 2¹⁰ | 1,024 | 1 KB (binary) |
+| 2¹⁶ | 65,536 | Number of TCP/UDP ports |
+| 2²⁰ | 1,048,576 | 1 MB (binary) |
+| 2²⁴ | 16,777,216 | Class A host addresses |
+| 2³⁰ | 1,073,741,824 | 1 GB (binary) |
+| 2³² | 4,294,967,296 | Total IPv4 addresses |
+
+---
+
+# Binary Place Values (One Octet)
+
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|:---:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+
+Each bit position has a value equal to a power of two:
+
+| Bit Position | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|:------------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Value | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+| Power | 2⁷ | 2⁶ | 2⁵ | 2⁴ | 2³ | 2² | 2¹ | 2⁰ |
+
+---
+
+# How to Convert Decimal to Binary
+
+## Example 1: Convert 192 to Binary
+
+Select the place values that add up to **192**.
+
+|128|64|32|16|8|4|2|1|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|1|1|0|0|0|0|0|0|
+
+**192 = 128 + 64**
+
+**Binary = `11000000`**
+
+---
+
+## Example 2: Convert 168 to Binary
+
+168 = 128 + 32 + 8
+
+|128|64|32|16|8|4|2|1|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|1|0|1|0|1|0|0|0|
+
+**Binary = `10101000`**
+
+---
+
+## Example 3: Convert 10 to Binary
+
+10 = 8 + 2
+
+|128|64|32|16|8|4|2|1|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|0|0|0|0|1|0|1|0|
+
+**Binary = `00001010`**
+
+---
+
+# Convert an IPv4 Address to Binary
+
+Example IP:
+
+```
+192.168.10.25
+```
+
+Convert each octet separately.
+
+| Decimal | Binary |
+|---------:|:-------:|
+| 192 | 11000000 |
+| 168 | 10101000 |
+| 10 | 00001010 |
+| 25 | 00011001 |
+
+Final binary representation:
+
+```
+11000000.10101000.00001010.00011001
+```
+
+---
+
+# Another Example
+
+IP Address:
+
+```
+10.0.5.255
+```
+
+| Decimal | Binary |
+|---------:|:-------:|
+| 10 | 00001010 |
+| 0 | 00000000 |
+| 5 | 00000101 |
+| 255 | 11111111 |
+
+Binary:
+
+```
+00001010.00000000.00000101.11111111
+```
+
+---
+
+# Quick Trick
+
+1. Start with place values:
+
+```
+128 64 32 16 8 4 2 1
+```
+
+2. From left to right:
+   - If the value fits, write **1** and subtract it.
+   - Otherwise, write **0**.
+   - Continue until the remainder is **0**.
+
+Example for **25**:
+
+```
+25 - 16 = 9
+9 - 8 = 1
+1 - 1 = 0
+
+128 64 32 16 8 4 2 1
+ 0   0   0  1 1 0 0 1
+
+Binary = 00011001
+```
+````
+
+                                                
+
