@@ -49,8 +49,14 @@ b) host id
 | B | `10` | `128 – 191` | `128.0.0.0 – 191.255.255.255` | `255.255.0.0 (/16)` | Medium networks |
 | C | `110` | `192 – 223` | `192.0.0.0 – 223.255.255.255` | `255.255.255.0 (/24)` | Small networks |
 | D | `1110` | `224 – 239` | `224.0.0.0 – 239.255.255.255` | N/A | Multicast |
-| E | `1111` | `240 – 255` | `240.0.0.0 – 255.255.255.255` | N/A | Experimental |
+| E | `1111` | `240 – 255` | `240.0.0.0 – 255.255.255.255` | N/A | Experimental / Research |
 
+
+## Network Bit is represented by 1
+
+## Host Bit is represented by 0 
+
+## We mostly work on private ip and with class A , B and C
 
 
 
