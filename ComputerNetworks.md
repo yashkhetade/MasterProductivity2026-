@@ -368,4 +368,16 @@ Binary = 00011001
 ````
 
                                                 
+# Find Network and Broadcast ID of 150.10.20.30
+
+it belongs to class B 
+so Network id is -  150.10.0.0
+
+and 
+
+Broadcast ID is 
+
+## for Broadcast ID  the host part which you made zero give them maximum value
+
+## so Broadcast ID is  150.10.255.255
 
