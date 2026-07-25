@@ -51,12 +51,12 @@ b) host id
 | D | `1110` | `224 – 239` | `224.0.0.0 – 239.255.255.255` | N/A | Multicast |
 | E | `1111` | `240 – 255` | `240.0.0.0 – 255.255.255.255` | N/A | Experimental / Research |
 
-
 ## Network Bit is represented by 1
 
 ## Host Bit is represented by 0 
 
 ## We mostly work on private ip and with class A , B and C
+
 
 
 
