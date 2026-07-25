@@ -14,7 +14,7 @@ There are 2 types of Addressing
 
 2) Physical (MAC addressing 48 bit mac address)
 
-3) 
+If i want to send message from mumbai to norway it is possible with IP
 
 
 
