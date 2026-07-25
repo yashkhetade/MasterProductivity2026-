@@ -176,3 +176,11 @@ here 137 so it will come in class B
 | Octet 1 (8 bit)   | Octet 2 (8 bit)  | Octet 3 (8 bit)  | Octet 4 (8 bit) |
 |:-----------:|:-----------:|:-----------:|:-----------:|
 | Network       |Network |  Network |  Host |
+
+# Eg - 115.10.0.15
+
+## Here it belongs to class A
+
+##  here network id is 115.0.0.0
+
+## because in In class A first octet is reserved for network and rest 3 for host 
