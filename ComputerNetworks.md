@@ -381,3 +381,175 @@ Broadcast ID is
 
 ## so Broadcast ID is  150.10.255.255
 
+## No of usable IP address or host is 2 power 16 -2 
+
+
+# Number of Usable Hosts in Classful IPv4 Addressing
+
+## Formula
+
+```
+Usable Hosts = 2^(Host Bits) − 2
+```
+
+### Why subtract 2?
+
+Two IP addresses in every network **cannot be assigned to hosts**:
+
+1. **Network Address** → Identifies the network.
+2. **Broadcast Address** → Sends data to all hosts in the network.
+
+Therefore,
+
+```
+Usable Hosts = Total Addresses − 2
+```
+
+---
+
+# Class A
+
+- Default Mask: `/8` (`255.0.0.0`)
+- Network Bits = **8**
+- Host Bits = **24**
+
+### Calculation
+
+```
+Total Addresses = 2^24
+                = 16,777,216
+
+Usable Hosts = 2^24 − 2
+             = 16,777,214
+```
+
+### Example
+
+Network:
+
+```
+10.0.0.0/8
+```
+
+| Type | Address |
+|------|---------|
+| Network Address | 10.0.0.0 |
+| First Host | 10.0.0.1 |
+| Last Host | 10.255.255.254 |
+| Broadcast Address | 10.255.255.255 |
+
+---
+
+# Class B
+
+- Default Mask: `/16` (`255.255.0.0`)
+- Network Bits = **16**
+- Host Bits = **16**
+
+### Calculation
+
+```
+Total Addresses = 2^16
+                = 65,536
+
+Usable Hosts = 2^16 − 2
+             = 65,534
+```
+
+### Example
+
+Network:
+
+```
+172.16.0.0/16
+```
+
+| Type | Address |
+|------|---------|
+| Network Address | 172.16.0.0 |
+| First Host | 172.16.0.1 |
+| Last Host | 172.16.255.254 |
+| Broadcast Address | 172.16.255.255 |
+
+---
+
+# Class C
+
+- Default Mask: `/24` (`255.255.255.0`)
+- Network Bits = **24**
+- Host Bits = **8**
+
+### Calculation
+
+```
+Total Addresses = 2^8
+                = 256
+
+Usable Hosts = 2^8 − 2
+             = 254
+```
+
+### Example
+
+Network:
+
+```
+192.168.1.0/24
+```
+
+| Type | Address |
+|------|---------|
+| Network Address | 192.168.1.0 |
+| First Host | 192.168.1.1 |
+| Last Host | 192.168.1.254 |
+| Broadcast Address | 192.168.1.255 |
+
+---
+
+# Class D
+
+- Address Range: **224.0.0.0 – 239.255.255.255**
+- Purpose: **Multicast**
+- **No host calculation**
+- **No subnet mask**
+
+---
+
+# Class E
+
+- Address Range: **240.0.0.0 – 255.255.255.255**
+- Purpose: **Experimental / Research**
+- **No host calculation**
+- **No subnet mask**
+
+---
+
+# Summary Table
+
+| Class | Default Mask | Host Bits | Formula | Usable Hosts |
+|:----:|:------------:|:---------:|:-------:|-------------:|
+| A | /8 | 24 | 2²⁴ − 2 | 16,777,214 |
+| B | /16 | 16 | 2¹⁶ − 2 | 65,534 |
+| C | /24 | 8 | 2⁸ − 2 | 254 |
+| D | N/A | N/A | Not Applicable | Multicast |
+| E | N/A | N/A | Not Applicable | Experimental |
+
+---
+
+# Exam Tip
+
+Remember the host bits from the default subnet mask:
+
+- **Class A** → `/8` → **24 host bits** → **2²⁴ − 2**
+- **Class B** → `/16` → **16 host bits** → **2¹⁶ − 2**
+- **Class C** → `/24` → **8 host bits** → **2⁸ − 2**
+
+**Shortcut to memorize:**
+
+```
+Class A → 24 host bits → 16,777,214 hosts
+Class B → 16 host bits → 65,534 hosts
+Class C → 8 host bits  → 254 hosts
+```
+
+
