@@ -138,7 +138,7 @@ b) host id
 
 | Class | First Bits | First Octet Range | IP Address Range | Default Subnet Mask | Purpose |
 |:-----:|:----------:|:-----------------:|:----------------:|:-------------------:|:--------|
-| A | `0` | ` 0 to 127 or 1 – 126` | `1.0.0.0 – 126.255.255.255` | `255.0.0.0 (/8)` | Large networks |
+| A | `0` | ` 0 to 127 (theoretically) or 1 – 126 (Practically)` | `1.0.0.0 – 126.255.255.255` | `255.0.0.0 (/8)` | Large networks |
 | B | `10` | `128 – 191` | `128.0.0.0 – 191.255.255.255` | `255.255.0.0 (/16)` | Medium networks |
 | C | `110` | `192 – 223` | `192.0.0.0 – 223.255.255.255` | `255.255.255.0 (/24)` | Small networks |
 | D | `1110` | `224 – 239` | `224.0.0.0 – 239.255.255.255` | N/A | Multicast |
@@ -382,6 +382,8 @@ Broadcast ID is
 ## so Broadcast ID is  150.10.255.255
 
 ## No of usable IP address or host is 2 power 16 -2 
+
+
 
 
 # Number of Usable Hosts in Classful IPv4 Addressing
