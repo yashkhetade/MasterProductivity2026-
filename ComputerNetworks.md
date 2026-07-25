@@ -165,6 +165,6 @@ here 137 so it will come in class B
 
 # In class C first three octet are reserved for network and rest 1 for host 
 
-| **Octet 1** | **Octet 2** | **Octet 3** | **Octet 4** |
+| **Octet 1 (8 bit)  ** | **Octet 2 (8 bit) ** | **Octet 3 (8 bit) ** | **Octet 4 (8 bit) ** |
 |:-----------:|:-----------:|:-----------:|:-----------:|
 | Network       |  Host |  Host |  Host |
