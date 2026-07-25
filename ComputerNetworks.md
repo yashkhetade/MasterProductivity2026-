@@ -159,5 +159,9 @@ eg - 137.128.122.36
 
 here 137 so it will come in class B
 
+# In class A first octet is reserved for network and rest 3 for host 
 
+# In class B first two octet are reserved for network and rest 2 for host 
+
+# In class C first three octet are reserved for network and rest 1 for host 
 
