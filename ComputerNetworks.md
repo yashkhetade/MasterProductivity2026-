@@ -58,6 +58,12 @@ b) host id
 ## We mostly work on private ip and with class A , B and C
 
 
+## How to identify a IP class
 
+see first octet 
+
+eg - 137.128.122.36
+
+here 137 so it will come in class B
 
 
