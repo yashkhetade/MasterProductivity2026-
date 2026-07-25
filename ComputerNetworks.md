@@ -184,3 +184,13 @@ here 137 so it will come in class B
 ##  here network id is 115.0.0.0
 
 ## because in In class A first octet is reserved for network and rest 3 for host 
+
+# Eg 2 -
+
+196.10.10.0
+
+## Here it belongs to class C
+
+##  here network id is 196.10.10
+
+## because In class C first three octet are reserved for network and rest 1 for host  
