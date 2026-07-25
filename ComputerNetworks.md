@@ -187,10 +187,23 @@ here 137 so it will come in class B
 
 # Eg 2 -->  196.10.10.0 -
 
-
-
 ## Here it belongs to class C
 
 ##  here network id is 196.10.10
 
 ## because In class C first three octet are reserved for network and rest 1 for host  
+
+
+# Subnet Mask ?
+
+#### Eg - Find subnet mask of -> 115.10.10.20
+
+## Here it belongs to class A
+
+## here network part is 115.0.0.0
+
+## and 10.10.20 is for host part
+
+
+
+
