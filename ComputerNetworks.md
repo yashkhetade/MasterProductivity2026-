@@ -150,8 +150,23 @@ b) host id
 ## Host Bit is represented by 0 
 
 ## We mostly work on private ip and with class A , B and C
+ 
+# Limited Broadcast Address - 255.255.255.255 (Limited Brodcast Address is always used as destination IP) 
 
-# Limited Broadcast Address - 255.255.255.255
+## Direct Brodcast Address (DBA) is always used as destination IP
+
+## In DBA all bits are 1 i.e 255.255 etc for a particular class 
+
+eg - 154.27.255.255 
+
+it is a class B address so 
+
+Network id - - 154.27
+
+Host Id - 0.0
+
+But here 255.255 so DBA for 154.27.255.255 
+
 
 ## How to identify a IP class ?
 
