@@ -1,5 +1,6 @@
 # ComputerNetworks
 
+
 # Common Networking Unit Conversions
 
 ## Data Rate (bps)
@@ -150,6 +151,7 @@ b) host id
 
 ## We mostly work on private ip and with class A , B and C
 
+# Limited Broadcast Address - 255.255.255.255
 
 ## How to identify a IP class ?
 
@@ -566,5 +568,62 @@ Network performance, security, and management are improved
 
 
 # Router each interface will have different Network Ids  because routers work is to connect 2 different networks
+
+# CIDR Notation
+
+Instead of writing
+
+255.255.255.0
+
+We simply write
+
+/24
+
+255.0.0.0
+
+=
+
+/8
+
+----------------
+
+255.255.0.0
+
+=
+
+/16
+
+----------------
+
+255.255.255.0
+
+=
+
+/24
+
+----------------
+
+255.255.255.128
+
+=
+
+/25
+
+----------------
+
+255.255.255.192
+
+=
+
+/26
+
+
+| Class | First Octet | Default Mask  | CIDR |
+| ----- | ----------- | ------------- | ---- |
+| A     | 1–126       | 255.0.0.0     | /8   |
+| B     | 128–191     | 255.255.0.0   | /16  |
+| C     | 192–223     | 255.255.255.0 | /24  |
+| D     | 224–239     | Multicast     | NA   |
+| E     | 240–255     | Reserved      | NA   |
 
 
