@@ -177,7 +177,7 @@ here 137 so it will come in class B
 |:-----------:|:-----------:|:-----------:|:-----------:|
 | Network       |Network |  Network |  Host |
 
-# Eg 1  115.10.0.15 -
+# Eg 1  --> 115.10.0.15 -
 
 ## Here it belongs to class A
 
@@ -185,7 +185,7 @@ here 137 so it will come in class B
 
 ## because in In class A first octet is reserved for network and rest 3 for host 
 
-# Eg 2  196.10.10.0 -
+# Eg 2 -->  196.10.10.0 -
 
 
 
