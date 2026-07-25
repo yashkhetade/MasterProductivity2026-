@@ -151,7 +151,7 @@ b) host id
 ## We mostly work on private ip and with class A , B and C
 
 
-## How to identify a IP class
+## How to identify a IP class ?
 
 see first octet 
 
