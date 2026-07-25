@@ -554,4 +554,17 @@ Class B → 16 host bits → 65,534 hosts
 Class C → 8 host bits  → 254 hosts
 ```
 
+# Subnetting Ipv4
+
+## Subnetting is the process of dividing a large IP network into smaller logical networks called subnets. Each subnet allows devices to communicate efficiently, improving network performance, security, and manageability.
+
+Each department is assigned a separate subnet
+Devices within a department communicate using their own subnet
+Inter-department traffic is routed through a router
+Broadcast traffic is limited to each subnet
+Network performance, security, and management are improved
+
+
+# Router each interface will have different Network Ids  because routers work is to connect 2 different networks
+
 
