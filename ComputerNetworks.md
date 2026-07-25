@@ -204,6 +204,10 @@ here 137 so it will come in class B
 
 ## and 10.10.20 is for host part
 
+so subnet mask for class A is 255.0.0.0
 
+so for class B it is 255.255.0.0
+
+class C it is 255.255.255.0
 
 
