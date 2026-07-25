@@ -39,7 +39,17 @@ a) network id
 b) host id 
 
 
+# We have 5 classes for classful addressing
 
+# IPv4 Classful Address Ranges
+
+| Class | First Bits | First Octet Range | IP Address Range | Default Subnet Mask | Purpose |
+|:-----:|:----------:|:-----------------:|:----------------:|:-------------------:|:--------|
+| A | `0` | `1 – 126` | `1.0.0.0 – 126.255.255.255` | `255.0.0.0 (/8)` | Large networks |
+| B | `10` | `128 – 191` | `128.0.0.0 – 191.255.255.255` | `255.255.0.0 (/16)` | Medium networks |
+| C | `110` | `192 – 223` | `192.0.0.0 – 223.255.255.255` | `255.255.255.0 (/24)` | Small networks |
+| D | `1110` | `224 – 239` | `224.0.0.0 – 239.255.255.255` | N/A | Multicast |
+| E | `1111` | `240 – 255` | `240.0.0.0 – 255.255.255.255` | N/A | Experimental |
 
 
 
