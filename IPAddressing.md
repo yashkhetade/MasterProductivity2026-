@@ -46,3 +46,5 @@ each octet is of 8 bit
 maximum value each octet can have is 255 and minimum is 0 
 
 no mix ip addressing i.e binary + decimal etc is allowed
+
+Use only dotted decimal mostly
