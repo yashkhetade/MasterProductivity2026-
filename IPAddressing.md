@@ -48,3 +48,10 @@ maximum value each octet can have is 255 and minimum is 0
 no mix ip addressing i.e binary + decimal etc is allowed
 
 Use only dotted decimal mostly
+
+
+# No of Ip addresses in range 136.45.49.5 to  136.45.49.7
+
+## ans  -  3 
+
+## 1 - 136.45.49.5  2- 136.45.49.6 3- 136.45.49.7
