@@ -1,6 +1,20 @@
 # IP Addressing
 
+2 power 10 as 1024 1 Kilobyte
+
+2 power 20 as million
+
+2 power 30 as billion 
+
+2 power 32 as 4 billion 
+
+2 power 32 = 2 power 30 + 2 power 2
+
+= 4 billion
+
+
 # Classes
+
 class A - 0 to 127 (1 to 126)
 
 class B - 128 to 191
@@ -23,3 +37,12 @@ class D -  2 power 28
 
 class E -  2 power 28 
 
+
+# Always check whether the IP is valid or not
+Ip4 address is of 32 bit
+
+each octet is of 8 bit 
+
+maximum value each octet can have is 255 and minimum is 0 
+
+no mix ip addressing i.e binary + decimal etc is allowed
