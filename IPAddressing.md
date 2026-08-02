@@ -57,3 +57,18 @@ Use only dotted decimal mostly
 ## ans  -  3 
 
 ## 1) - 136.45.49.5  2) - 136.45.49.6  3)- 136.45.49.7
+
+# Base is 256 thats why 0 to 255
+
+Q) find no of ip address if first and last ip addresses are 136.45.49.5 and 136.47.50.45
+
+# ans  -  136 - 136 cancel leave 
+# 47 -45 = 2 * 256 power 2
+
+# 50 -49 = 1 * 256 power 1
+
+# 45 - 5 = 40 * 256 powwer 0 = 40 
+
+and at last + 1 
+
+
